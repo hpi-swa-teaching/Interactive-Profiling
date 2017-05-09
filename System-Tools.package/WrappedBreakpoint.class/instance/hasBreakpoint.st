@@ -1,0 +1,3 @@
+public
+hasBreakpoint
+	^ true

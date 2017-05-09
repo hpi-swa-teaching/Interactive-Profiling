@@ -1,0 +1,14 @@
+{
+	"category" : "System-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "topa 3/26/2015 21:51",
+	"instvars" : [
+		"method" ],
+	"name" : "WrappedBreakpoint",
+	"pools" : [
+		 ],
+	"super" : "ProtoObject",
+	"type" : "normal" }

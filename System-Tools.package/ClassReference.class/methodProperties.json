@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"class:" : "eem 5/7/2008 11:23" },
+	"instance" : {
+		"<=" : "eem 5/7/2008 11:33",
+		"=" : "jr 10/21/2016 20:34",
+		"actualClass" : "jr 11/4/2016 23:25",
+		"asStringOrText" : "eem 5/7/2008 11:41",
+		"classIsMeta" : "eem 5/7/2008 18:22",
+		"classSymbol" : "eem 5/7/2008 16:31",
+		"compiledMethod" : "eem 5/8/2008 09:50",
+		"environment" : "jr 10/21/2016 20:27",
+		"hash" : "jr 11/2/2016 19:40",
+		"isClassReference" : "eem 5/7/2008 11:27",
+		"isMethodReference" : "eem 5/7/2008 11:27",
+		"printOn:" : "jr 11/2/2016 22:39",
+		"setClassAndSelectorIn:" : "eem 5/7/2008 11:42",
+		"setClassSymbol:classIsMeta:environment:stringVersion:" : "jr 11/3/2016 14:27",
+		"setClassSymbol:classIsMeta:stringVersion:" : "ul 8/8/2013 12:36",
+		"setStandardClass:" : "jr 11/5/2016 13:33",
+		"sourceString" : "eem 7/15/2010 17:34",
+		"stringVersion" : "eem 5/7/2008 11:41" } }

@@ -1,0 +1,17 @@
+{
+	"category" : "System-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"classSymbol",
+		"stringVersion",
+		"classIsMeta",
+		"environment" ],
+	"name" : "ClassReference",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

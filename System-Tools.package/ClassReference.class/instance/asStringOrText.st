@@ -1,0 +1,4 @@
+accessing
+asStringOrText
+
+	^stringVersion

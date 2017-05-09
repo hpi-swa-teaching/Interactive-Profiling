@@ -1,0 +1,14 @@
+{
+	"category" : "System-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Installed" ],
+	"commentStamp" : "emm 5/30/2002 14:20",
+	"instvars" : [
+		 ],
+	"name" : "BreakpointManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

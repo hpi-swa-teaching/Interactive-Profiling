@@ -1,0 +1,32 @@
+{
+	"category" : "System-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultPollPeriod",
+		"ShowProcesses",
+		"Timer" ],
+	"commentStamp" : "eem 7/16/2012 17:10",
+	"instvars" : [
+		"class",
+		"method",
+		"blockNesting",
+		"process",
+		"tally",
+		"receivers",
+		"senders",
+		"time",
+		"gcStats",
+		"maxClassNameSize",
+		"maxClassPlusSelectorSize",
+		"maxTabs",
+		"reportOtherProcesses",
+		"time0",
+		"startTime",
+		"endTime",
+		"preHibernationCopy" ],
+	"name" : "MessageTally",
+	"pools" : [
+		 ],
+	"super" : "Magnitude",
+	"type" : "normal" }
