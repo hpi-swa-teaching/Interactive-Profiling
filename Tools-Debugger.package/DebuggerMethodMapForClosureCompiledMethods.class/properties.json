@@ -1,0 +1,15 @@
+{
+	"category" : "Tools-Debugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"FirstTime" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"blockExtentsToTempRefs",
+		"startpcsToTempRefs" ],
+	"name" : "DebuggerMethodMapForClosureCompiledMethods",
+	"pools" : [
+		 ],
+	"super" : "DebuggerMethodMap",
+	"type" : "normal" }
