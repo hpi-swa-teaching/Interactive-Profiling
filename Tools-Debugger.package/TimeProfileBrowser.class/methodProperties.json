@@ -1,9 +1,18 @@
 {
 	"class" : {
-		"onBlock:" : "sd 11/20/2005 21:28",
+		"nodeClass" : "jak-ing 5/29/2017 14:05",
+		"onBlock:" : "jak-ing 5/29/2017 14:44",
 		"spyOn:" : "nk 3/8/2004 12:46",
 		"spyOnProcess:forMilliseconds:" : "sd 11/20/2005 21:28" },
 	"instance" : {
+		"buildMessageTreeWith:" : "jak-ing 5/29/2017 14:37",
+		"buildWith:" : "jak-ing 5/23/2017 23:24",
+		"currentParent" : "jak-ing 5/29/2017 14:19",
+		"currentParent:" : "jak-ing 5/29/2017 14:20",
+		"currentSelection" : "jak-ing 5/29/2017 14:18",
+		"currentSelection:" : "jak-ing 5/29/2017 14:18",
+		"genericMenu:" : "jak-ing 5/29/2017 14:19",
+		"getList" : "jak-ing 5/29/2017 14:13",
 		"hasMessageSelected" : "ul 4/7/2016 17:11",
 		"initializeMessageList:" : "dvf 7/5/2000 18:48",
 		"isModeStyleable" : "ul 11/2/2011 02:45",
@@ -12,6 +21,8 @@
 		"messageListKey:from:" : "ul 8/3/2011 01:54",
 		"methodReferenceFrom:" : "ul 4/7/2016 19:28",
 		"methodReferences" : "ul 4/7/2016 17:09",
+		"root" : "jak-ing 5/29/2017 14:52",
+		"rootObject:" : "jak-ing 5/29/2017 14:37",
 		"runBlock:" : "nk 3/8/2004 12:51",
 		"runBlock:pollingEvery:" : "nice 2/24/2013 18:10",
 		"runProcess:forMilliseconds:pollingEvery:" : "nice 2/24/2013 18:11",

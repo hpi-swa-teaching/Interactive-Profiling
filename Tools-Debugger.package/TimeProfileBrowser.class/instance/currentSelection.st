@@ -1,0 +1,4 @@
+message list
+currentSelection
+
+	^ currentSelection

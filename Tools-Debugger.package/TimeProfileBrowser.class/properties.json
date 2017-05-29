@@ -8,7 +8,10 @@
 	"instvars" : [
 		"block",
 		"tally",
-		"methodReferences" ],
+		"methodReferences",
+		"root",
+		"currentSelection",
+		"currentParent" ],
 	"name" : "TimeProfileBrowser",
 	"pools" : [
 		 ],
