@@ -3,6 +3,10 @@
 
 Interactive profiling
 
-Test line for TimeProfileBrowser
+Test code for TimeProfileBrowser
 
-TimeProfileBrowser spyOn: [20 timesRepeat: [Transcript show: 100 factorial printString]].
+```Smalltalk
+TimeProfileBrowser spyOn: 
+  [20 timesRepeat: 
+    [Transcript show: 100 factorial printString]].
+```
