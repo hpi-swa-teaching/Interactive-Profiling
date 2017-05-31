@@ -5,7 +5,7 @@
 		"spyOn:" : "nk 3/8/2004 12:46",
 		"spyOnProcess:forMilliseconds:" : "sd 11/20/2005 21:28" },
 	"instance" : {
-		"buildMessageTreeWith:" : "jak-ing 5/29/2017 14:37",
+		"buildMessageTreeWith:" : "MD 5/30/2017 00:02",
 		"buildWith:" : "jak-ing 5/23/2017 23:24",
 		"currentParent" : "jak-ing 5/29/2017 14:19",
 		"currentParent:" : "jak-ing 5/29/2017 14:20",
@@ -24,9 +24,11 @@
 		"root" : "jak-ing 5/29/2017 14:52",
 		"rootObject:" : "jak-ing 5/29/2017 14:37",
 		"runBlock:" : "nk 3/8/2004 12:51",
-		"runBlock:pollingEvery:" : "nice 2/24/2013 18:10",
+		"runBlock:pollingEvery:" : "MD 5/29/2017 23:19",
 		"runProcess:forMilliseconds:pollingEvery:" : "nice 2/24/2013 18:11",
 		"selectedMessage" : "ul 4/7/2016 19:37",
 		"setClassAndSelectorIn:" : "ul 4/7/2016 19:46",
 		"tally" : "stp 05/08/1999 11:37",
-		"tally:" : "stp 05/08/1999 11:37" } }
+		"tally:" : "stp 05/08/1999 11:37",
+		"tallyTree" : "MD 5/29/2017 23:18",
+		"tallyTree:" : "MD 5/29/2017 23:18" } }

@@ -1,0 +1,3 @@
+accessing
+tallyTree
+	^ tallyTree

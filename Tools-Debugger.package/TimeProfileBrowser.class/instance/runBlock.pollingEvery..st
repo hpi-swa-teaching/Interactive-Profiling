@@ -15,6 +15,8 @@ runBlock: aBlock pollingEvery: pollPeriod
 		maxTabs: 100.
 	result := tally spyEvery: pollPeriod on: aBlock.
 	list := OrderedCollection withAll: (String streamContents: [ :s | tally report: s]) lines.
+	self tallyTree: TallyTree new.
+	tally reportToTallyTree: self tallyTree.
 	self initializeMessageList: list.
 	self changed: #messageList.
 	self changed: #messageListIndex.

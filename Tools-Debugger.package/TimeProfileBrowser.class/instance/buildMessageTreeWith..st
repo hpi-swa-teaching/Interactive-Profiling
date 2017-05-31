@@ -1,8 +1,8 @@
-contents
+as yet unclassified
 buildMessageTreeWith: builder
 	| treeSpec |
 	treeSpec := builder pluggableTreeSpec new.
-	self rootObject: self tally.
+	self rootObject: self tallyTree.
 	treeSpec 
 		model: self;
 		nodeClass: self class nodeClass;

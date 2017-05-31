@@ -1,0 +1,15 @@
+{
+	"category" : "System-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"children",
+		"value" ],
+	"name" : "TallyTree",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
