@@ -61,6 +61,7 @@
 		"primitives:" : "",
 		"printOn:" : "eem 1/28/2015 16:46",
 		"printOn:total:totalTime:tallyExact:" : "eem 1/28/2015 16:46",
+		"printOnTallyTree:total:totalTime:tallyExact:" : "MD 5/31/2017 18:06",
 		"printSenderCountsOn:" : "ul 2/5/2010 21:45",
 		"process" : "ar 3/3/2009 19:29",
 		"process:" : "ar 3/3/2009 19:29",
@@ -72,7 +73,7 @@
 		"reportToTallyTree:" : "MD 5/29/2017 23:15",
 		"reportToTallyTree:cutoff:" : "MD 5/29/2017 23:35",
 		"rootPrintOn:total:totalTime:threshold:" : "ul 5/6/2015 13:03",
-		"rootToTallyTreeOn:total:totalTime:threshold:" : "MD 5/31/2017 16:33",
+		"rootToTallyTreeOn:total:totalTime:threshold:" : "MD 5/31/2017 17:49",
 		"sonsOver:" : "eem 1/28/2015 16:43",
 		"species" : "tk 7/5/2001 22:04",
 		"spyAllEvery:on:" : "fbs 7/25/2013 07:14",
@@ -86,5 +87,5 @@
 		"time" : "stp 05/08/1999 11:47",
 		"toTallyTreeOn:total:totalTime:tallyExact:" : "MD 5/29/2017 23:12",
 		"treePrintOn:tabs:thisTab:total:totalTime:tallyExact:orThreshold:" : "ul 2/5/2010 21:48",
-		"treeToTallyTreeOn:tabs:total:totalTime:tallyExact:orThreshold:" : "MD 5/29/2017 23:37",
+		"treeToTallyTreeOn:tabs:total:totalTime:tallyExact:orThreshold:" : "MD 5/31/2017 18:18",
 		"unhibernate:" : "eem 7/13/2012 16:59" } }

@@ -2,13 +2,12 @@ printing
 treeToTallyTreeOn: aTallyTree tabs: tabs total: total totalTime: totalTime tallyExact: isExact orThreshold: threshold 
 	| sons |
 	tabs do: [:tab | aTallyTree value: '1'].
-	tabs size > 0 
-		ifTrue: 
-			[self 
-				treeToTallyTreeOn: (aTallyTree addChild: TallyTree new) 
-				total: total
-				totalTime: totalTime
-				tallyExact: isExact].
+	"self halt."
+	self 
+		printOnTallyTree: aTallyTree
+		total: total
+		totalTime: totalTime
+		tallyExact: isExact.
 	sons := isExact ifTrue: [receivers] ifFalse: [self sonsOver: threshold].
 	sons isEmpty 
 		ifFalse: 
