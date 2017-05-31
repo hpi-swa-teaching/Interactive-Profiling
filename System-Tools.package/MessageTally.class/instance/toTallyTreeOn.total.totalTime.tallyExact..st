@@ -22,5 +22,6 @@ toTallyTreeOn: aTallyTree total: total totalTime: totalTime tallyExact: isExact
 			aClass := method methodClass.
 			className := aClass name contractTo: self maxClassNameSize.
 			blockNesting > 0 ifTrue:
-				[aTallyTree value: (blockNesting put: $[), (blockNesting put: $])].
+				[blockNesting timesRepeat: (aTallyTree value: aTallyTree value, '[').
+				blockNesting timesRepeat: (aTallyTree value: aTallyTree value, ']')].
 			aTallyTree value: class name, '(' , aClass name , ')>>',  (aSelector contractTo: self maxClassPlusSelectorSize - className size)]

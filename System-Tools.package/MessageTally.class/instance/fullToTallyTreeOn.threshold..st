@@ -3,7 +3,7 @@ fullToTallyTreeOn: aTallyTree threshold: perCent
 	| threshold leavesTree|  
 	threshold := (perCent asFloat / 100 * tally) rounded.
 	self
-		rootToTallyTreeOn: aTallyTree
+		rootToTallyTreeOn: (aTallyTree addChild: TallyTree new)
 		total: tally
 		totalTime: time
 		threshold: threshold.

@@ -4,7 +4,7 @@ reportToTallyTree: aTallyTree cutoff: threshold
 		ifTrue: [aTallyTree value: ' - no tallies obtained']
 		ifFalse: 
 			[aTallyTree value: ' - ',  tally,  ' tallies, ', time printString, ' msec.'.
-			self fullToTallyTreeOn: (aTallyTree addChild: TallyTree new) threshold: threshold].
+			self fullToTallyTreeOn: aTallyTree threshold: threshold].
 		
-	"time isZero ifFalse:	
-		[self reportGCStatsOn: strm]."
+	time isZero ifFalse:	
+		[self reportGCStatsOnTallyTree: aTallyTree].
