@@ -6,7 +6,7 @@ rootToTallyTreeOn: aTallyTree total: total totalTime: totalTime threshold: thres
 	groups := sons groupBy: [ :aTally | aTally process ].
 	groups keysAndValuesDo: [ :p :g |
 		(reportOtherProcesses or: [ p notNil ]) ifTrue: [
-			aTallyTree addChild: (TallyTree new value: 'Process: ', 'other processes').
+			aTallyTree  value: 'Process: ', 'other processes'.
 			g sort do:[:aSon | 
 				aSon 
 					treeToTallyTreeOn: (aTallyTree addChild: TallyTree new) 
