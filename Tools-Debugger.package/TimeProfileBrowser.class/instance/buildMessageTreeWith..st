@@ -12,12 +12,12 @@ buildMessageTreeWith: builder
 		setSelected: #currentSelection:;
 		setSelectedParent: #currentParent:;
 		menu: #genericMenu:;
-		autoDeselect: false";
+		autoDeselect: false;
 		columns: (ObjectExplorerWrapper showContentsInColumns
 			ifTrue: [{
 				[:listMorph | (listMorph filteredItems collect: [:item |
 					item preferredWidthOfColumn: 1]) max].
-				nil }]);
+				nil }])";
 		frame: (0@0 corner: 1@0.71)".
 		
 "	SystemBrowser browseWithDragNDrop 
