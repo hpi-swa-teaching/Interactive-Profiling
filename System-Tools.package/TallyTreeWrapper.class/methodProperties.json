@@ -2,12 +2,13 @@
 	"class" : {
 		"showContentsInColumns" : "MD 6/1/2017 17:30",
 		"showContentsInColumns:" : "MD 6/1/2017 17:30",
+		"with:model:parent:" : "DG 6/1/2017 19:08",
 		"with:name:model:" : "MD 6/1/2017 18:00",
 		"with:name:model:parent:" : "MD 6/1/2017 18:02" },
 	"instance" : {
-		"asString" : "MD 6/1/2017 17:39",
-		"contents" : "MD 6/1/2017 17:30",
-		"hasContents" : "MD 6/1/2017 17:30",
+		"asString" : "DG 6/1/2017 18:17",
+		"contents" : "DG 6/1/2017 18:15",
+		"hasContents" : "DG 6/1/2017 18:47",
 		"icon" : "MD 6/1/2017 17:30",
 		"itemName" : "MD 6/1/2017 17:30",
 		"object" : "MD 6/1/2017 17:30",

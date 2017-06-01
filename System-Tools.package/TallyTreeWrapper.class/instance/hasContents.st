@@ -1,5 +1,5 @@
 accessing
 hasContents
 
-	^ self object hasContentsInExplorer
+	^ self object children notEmpty
 	

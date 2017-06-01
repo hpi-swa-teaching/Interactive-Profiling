@@ -16,4 +16,4 @@ asString
 		ifTrue: [String tab]
 		ifFalse: [label ifEmpty: [''] ifNotEmpty: [': ']].
 
-	^ '{1}{2}adfasdfsa' format: {label. separator}
+	^ '{1}' format: {label}
