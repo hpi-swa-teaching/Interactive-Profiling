@@ -13,7 +13,8 @@ buildMessageTreeWith: builder
 		setSelectedParent: #currentParent:;
 		menu: #genericMenu:;
 		autoDeselect: false;
-		columns: (ObjectExplorerWrapper showContentsInColumns
+		label: #getValueOf: ; "doesnt seem to work"
+		columns: (self class nodeClass showContentsInColumns
 			ifTrue: [{
 				[:listMorph | (listMorph filteredItems collect: [:item |
 					item preferredWidthOfColumn: 1]) max].

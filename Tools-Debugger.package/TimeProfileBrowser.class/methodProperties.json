@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"nodeClass" : "jak-ing 5/29/2017 14:05",
+		"nodeClass" : "MD 6/1/2017 17:31",
 		"onBlock:" : "jak-ing 5/29/2017 14:44",
 		"spyOn:" : "nk 3/8/2004 12:46",
 		"spyOnProcess:forMilliseconds:" : "sd 11/20/2005 21:28" },
 	"instance" : {
-		"buildMessageTreeWith:" : "MD 5/31/2017 16:56",
+		"buildMessageTreeWith:" : "MD 6/1/2017 17:43",
 		"buildWith:" : "jak-ing 5/23/2017 23:24",
 		"currentParent" : "jak-ing 5/29/2017 14:19",
 		"currentParent:" : "jak-ing 5/29/2017 14:20",

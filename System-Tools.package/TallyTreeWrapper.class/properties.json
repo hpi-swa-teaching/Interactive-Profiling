@@ -1,0 +1,15 @@
+{
+	"category" : "System-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ShowContentsInColumns" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"itemName",
+		"parent" ],
+	"name" : "TallyTreeWrapper",
+	"pools" : [
+		 ],
+	"super" : "ListItemWrapper",
+	"type" : "normal" }

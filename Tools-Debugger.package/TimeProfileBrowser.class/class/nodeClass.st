@@ -1,4 +1,4 @@
 instance creation
 nodeClass
 
-	^ ObjectExplorerWrapper
+	^ TallyTreeWrapper
