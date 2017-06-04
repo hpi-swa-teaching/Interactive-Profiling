@@ -9,9 +9,6 @@
 		"block",
 		"tally",
 		"methodReferences",
-		"root",
-		"currentSelection",
-		"currentParent",
 		"tallyTree" ],
 	"name" : "TimeProfileBrowser",
 	"pools" : [

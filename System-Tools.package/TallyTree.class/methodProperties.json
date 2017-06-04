@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChild:" : "DG 6/1/2017 18:47",
-		"children" : "DG 6/1/2017 18:47",
-		"children:" : "DG 6/1/2017 18:26",
-		"initialize" : "DG 6/1/2017 18:48",
-		"value" : "MD 5/29/2017 22:46",
-		"value:" : "MD 5/29/2017 22:46" } }
+		"currentParent" : "MD 6/4/2017 21:32",
+		"currentParent:" : "MD 6/4/2017 21:32",
+		"currentSelection" : "MD 6/4/2017 21:32",
+		"currentSelection:" : "MD 6/4/2017 21:32",
+		"explorerKey:from:event:" : "MD 6/4/2017 21:45",
+		"genericMenu:" : "MD 6/4/2017 21:43" } }

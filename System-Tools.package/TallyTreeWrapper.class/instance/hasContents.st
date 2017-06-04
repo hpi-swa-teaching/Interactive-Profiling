@@ -5,4 +5,4 @@ hasContents
 		ifNil: [^ false] 
 		ifNotNil: [^ self object children notEmpty]."
 		
-	^ self object children notEmpty
+	^ self item children notEmpty

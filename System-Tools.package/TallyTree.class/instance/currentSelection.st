@@ -1,4 +1,3 @@
-message list
+accessing
 currentSelection
-
 	^ currentSelection

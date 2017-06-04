@@ -5,4 +5,4 @@ leavesToTallyTreeOn: aTallyTree threshold: threshold
 	self leavesInto: dict fromSender: nil.
 	(dict values select: [:node | node tally > threshold])
 		sort do: [:node |
-			node toTallyTreeOn: (aTallyTree addChild: TallyTree new) total: tally totalTime: time tallyExact: false ]
+			node toTallyTreeOn: (aTallyTree addChild: TallyNode new) total: tally totalTime: time tallyExact: false ]
