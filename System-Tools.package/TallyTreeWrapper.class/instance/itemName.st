@@ -1,4 +1,4 @@
 accessing
 itemName
 
-	^ self item key
+	^ self item value

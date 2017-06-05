@@ -2,4 +2,4 @@ as yet unclassified
 with: anObject name: aString model: aModel parent: aParent
 
 	^self new 
-		setItem: anObject name: aString model: aModel parent: aParent
+		setItem: anObject model: aModel parent: aParent

@@ -6,7 +6,6 @@
 		"ShowContentsInColumns" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"itemName",
 		"parent" ],
 	"name" : "TallyTreeWrapper",
 	"pools" : [

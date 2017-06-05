@@ -2,19 +2,16 @@
 	"class" : {
 		"showContentsInColumns" : "MD 6/1/2017 17:30",
 		"showContentsInColumns:" : "MD 6/1/2017 17:30",
-		"with:model:parent:" : "DG 6/1/2017 19:08",
-		"with:name:model:" : "jak-ing 6/3/2017 11:26",
-		"with:name:model:parent:" : "jak-ing 6/3/2017 11:27" },
+		"with:model:parent:" : "MD 6/5/2017 17:24",
+		"with:name:model:" : "MD 6/5/2017 17:23",
+		"with:name:model:parent:" : "MD 6/5/2017 17:24" },
 	"instance" : {
-		"asString" : "DG 6/1/2017 18:17",
-		"contents" : "DG 6/1/2017 18:15",
-		"hasContents" : "jak-ing 6/3/2017 11:45",
+		"asString" : "MD 6/5/2017 17:22",
+		"contents" : "MD 6/5/2017 17:26",
+		"hasContents" : "MD 6/5/2017 17:22",
 		"icon" : "MD 6/1/2017 17:30",
-		"itemName" : "MD 6/1/2017 17:30",
-		"object" : "jak-ing 6/3/2017 11:26",
-		"object:" : "MD 6/1/2017 17:30",
+		"itemName" : "MD 6/5/2017 17:25",
 		"parent" : "MD 6/1/2017 17:30",
 		"parent:" : "MD 6/1/2017 17:30",
-		"refresh" : "jak-ing 6/3/2017 11:25",
-		"setItem:name:model:" : "MD 6/1/2017 17:30",
-		"setItem:name:model:parent:" : "MD 6/1/2017 17:30" } }
+		"refresh" : "MD 6/5/2017 17:35",
+		"setItem:model:parent:" : "MD 6/5/2017 17:27" } }
