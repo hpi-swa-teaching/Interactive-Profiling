@@ -2,7 +2,7 @@ as yet unclassified
 buildMessageTreeWith: builder
 	| treeSpec |
 	treeSpec := builder pluggableTreeSpec new.
-	self rootObject: self tallyTree.
+	self root: self tallyTree.
 	treeSpec 
 		model: self;
 		nodeClass: self class nodeClass;
