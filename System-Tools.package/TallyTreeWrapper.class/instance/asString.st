@@ -1,5 +1,5 @@
 converting
 asString
 	| label |
-	label := self itemName.
+	label := self itemName ifNil: [''].
 	^ '{1}' format: {label}
