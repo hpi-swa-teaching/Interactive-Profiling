@@ -8,7 +8,7 @@
 	"instvars" : [
 		"children",
 		"value" ],
-	"name" : "TallyTree",
+	"name" : "TallyNode",
 	"pools" : [
 		 ],
 	"super" : "Object",
