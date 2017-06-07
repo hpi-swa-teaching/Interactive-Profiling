@@ -8,4 +8,5 @@ buildWith: builder
 	}.
 	result := builder build: windowSpec.
 	autoSelectString ifNotNil:[self changed: #autoSelect].
+
 	^result

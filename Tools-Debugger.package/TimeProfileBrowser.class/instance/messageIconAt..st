@@ -1,4 +1,4 @@
 message list
 messageIconAt: index
 
-	^nil
+	^ nil

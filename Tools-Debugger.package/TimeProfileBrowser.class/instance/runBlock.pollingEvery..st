@@ -20,4 +20,4 @@ runBlock: aBlock pollingEvery: pollPeriod
 	self initializeMessageList: list.
 	self changed: #messageList.
 	self changed: #messageListIndex.
-	^result
+	^ result

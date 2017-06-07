@@ -1,3 +1,4 @@
 accessing
 tallyTree: anObject
-	tallyTree := anObject
+
+	tallyTree := anObject.

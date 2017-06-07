@@ -1,4 +1,4 @@
 message list
 root: anObject
 	
-	root := anObject
+	root := anObject.

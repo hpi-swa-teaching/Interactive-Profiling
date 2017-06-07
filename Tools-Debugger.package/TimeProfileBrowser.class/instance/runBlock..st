@@ -1,3 +1,4 @@
 private
 runBlock: aBlock
-	^self runBlock: aBlock pollingEvery: MessageTally defaultPollPeriod
+
+	^ self runBlock: aBlock pollingEvery: MessageTally defaultPollPeriod

@@ -13,5 +13,5 @@ selectedMessage
 				in: class
 				notifying: nil
 				decorated: false ].
-		^source asText makeSelectorBoldIn: class ].
-	^''
+		^ source asText makeSelectorBoldIn: class ].
+	^ ''

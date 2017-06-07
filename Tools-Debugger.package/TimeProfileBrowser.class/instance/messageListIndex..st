@@ -7,4 +7,4 @@ messageListIndex: anInteger
 	self editSelection: #editMessage.
 	self contentsChanged.
 	(autoSelectString notNil and: [ self contents notEmpty ]) ifTrue: [ self changed: #autoSelect ].
-	self decorateButtons
+	self decorateButtons.
