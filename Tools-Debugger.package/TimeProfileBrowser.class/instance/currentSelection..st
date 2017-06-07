@@ -7,7 +7,6 @@ currentSelection: anObject
 	self methodReferences.
 	self methodReferences at: 1 put: (self methodReferenceFrom: anObject). 
 	currentSelection := anObject.
-	self messageListIndex: 1.
 	
 	self changed: #currentSelection.
 	self changed: #style.
