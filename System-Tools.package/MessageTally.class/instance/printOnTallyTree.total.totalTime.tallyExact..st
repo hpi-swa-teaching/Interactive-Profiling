@@ -23,6 +23,6 @@ printOnTallyTree: aTallyTree total: total totalTime: totalTime tallyExact: isExa
 			blockNesting > 0 ifTrue:
 				[aTallyTree value: aTallyTree value, '[] '].
 			aTallyTree 
-				class: aClass;
-				method: aSelector;
+				itemClass: aClass;
+				itemSelector:  aSelector;
 				value: aTallyTree value,  class name, (aClass = class ifTrue: ['>>'] ifFalse: ['(' , aClass name , ')>>']), (aSelector contractTo: self maxClassPlusSelectorSize - className size)].

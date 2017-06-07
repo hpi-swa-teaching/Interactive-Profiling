@@ -8,8 +8,8 @@
 	"instvars" : [
 		"children",
 		"value",
-		"class",
-		"method" ],
+		"itemSelector",
+		"itemClass" ],
 	"name" : "TallyNode",
 	"pools" : [
 		 ],
