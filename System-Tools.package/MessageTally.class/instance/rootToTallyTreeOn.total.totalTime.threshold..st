@@ -9,7 +9,7 @@ rootToTallyTreeOn: aTallyTree total: total totalTime: totalTime threshold: thres
 			aTallyTree  value: 'Process: ', (p ifNil: [ 'other processes'] ifNotNil: [ p browserPrintString]).
 			g sort do:[:aSon | 
 				aSon 
-					treeToTallyTreeOn: (aTallyTree addChild: TallyTree new) 
+					treeToTallyTreeOn: (aTallyTree addChild: TallyNode new) 
 					tabs: OrderedCollection new
 					total: total
 					totalTime: totalTime
