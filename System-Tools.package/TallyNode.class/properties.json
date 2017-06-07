@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"children",
-		"value" ],
+		"value",
+		"class",
+		"method" ],
 	"name" : "TallyNode",
 	"pools" : [
 		 ],
