@@ -1,4 +1,5 @@
 OrderedDictionary {
+	'Morphic-Kernel.package' : #SquotCypressCodeSerializer,
 	'System-Tools.package' : #SquotCypressCodeSerializer,
 	'Tools-Debugger.package' : #SquotCypressCodeSerializer
 }
