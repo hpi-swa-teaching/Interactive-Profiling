@@ -1,7 +1,8 @@
 menu actions
 startTimeProfileBrowser
-	(self confirm: 'TimeProfileBrowser will start now,
-and stop when the cursor goes
-to the top of the screen') ifTrue:
-		[TimeProfileBrowser spyOn:
-			[[Sensor peekPosition y > 0] whileTrue: [World doOneCycle]]]
+
+	| usersBlock |
+
+	usersBlock := MorphicUIManager new request: 'Type in a block that you want to spy on' initialAnswer: '[<block code>]'.
+	usersBlock ~= '' ifTrue: 
+		[TimeProfileBrowser spyOn: (BlockClosure readFromString: usersBlock)]

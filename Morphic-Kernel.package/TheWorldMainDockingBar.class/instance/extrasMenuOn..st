@@ -52,9 +52,15 @@ extrasMenuOn: aDockingBar
 				menu addItem:[:item|
 					item
 						contents: 'Start Advanced Profiler' translated;
-						help: 'Starts the Advanced Profiler' translated;
+						help: 'Starts the Advanced Profiler on a block' translated;
 						target: self;
 						selector: #startTimeProfileBrowser].
+				menu addItem:[:item|
+					item
+						contents: 'Start Advanced Profiler Globally' translated;
+						help: 'Starts the Advanced Profiler and spies on everything that happens' translated;
+						target: self;
+						selector: #startTimeProfileBrowserGlobal].
 				menu addItem:[:item|
 					item
 						contents: 'Collect Garbage' translated;
