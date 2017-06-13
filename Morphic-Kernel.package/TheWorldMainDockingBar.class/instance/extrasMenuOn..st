@@ -54,7 +54,7 @@ extrasMenuOn: aDockingBar
 						contents: 'Start Advanced Profiler' translated;
 						help: 'Starts the Advanced Profiler' translated;
 						target: self;
-						selector: #startMessageTally].				
+						selector: #startTimeProfileBrowser].
 				menu addItem:[:item|
 					item
 						contents: 'Collect Garbage' translated;
