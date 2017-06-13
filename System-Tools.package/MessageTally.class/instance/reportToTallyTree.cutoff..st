@@ -1,9 +1,9 @@
 reporting
 reportToTallyTree: aTallyTree cutoff: threshold 
 	tally = 0
-		ifTrue: [aTallyTree value: ' - no tallies obtained']
+		ifTrue: [aTallyTree value: 'No tallies obtained']
 		ifFalse: 
-			[aTallyTree value: ' - ',  tally,  ' tallies, ', time printString, ' msec.'.
+			[aTallyTree value: tally printString,  ' tallies, ', time printString, ' msec.'.
 			self fullToTallyTreeOn: aTallyTree threshold: threshold].
 		
 	time isZero ifFalse:	
