@@ -1,5 +1,7 @@
 OrderedDictionary {
+	'51Deprecated-Files.package' : #SquotCypressCodeSerializer,
 	'Morphic-Kernel.package' : #SquotCypressCodeSerializer,
+	'Morphic-Menus-DockingBar.package' : #SquotCypressCodeSerializer,
 	'System-Tools.package' : #SquotCypressCodeSerializer,
 	'Tools-Debugger.package' : #SquotCypressCodeSerializer
 }
