@@ -9,7 +9,7 @@ filterEvent: aKeyboardEvent for: anObject
 
 	(aKeyboardEvent isKeyDown or: [aKeyboardEvent isKeystroke]) "We also need #keyDown for Windows platforms because CTRL+X does not trigger key strokes there..."
 		ifFalse: [^ aKeyboardEvent].
-			
+		
 	"Search field."
 	aKeyboardEvent keyCharacter = $0
 		ifTrue: [
@@ -17,8 +17,13 @@ filterEvent: aKeyboardEvent for: anObject
 				morph model activate: aKeyboardEvent in: morph ].
 			^ aKeyboardEvent ignore "hit!"].
 
-	(aKeyboardEvent keyValue == $L asciiValue)
+	"37 is Mac-equivalent to $L asciiValue"
+	(aKeyboardEvent keyValue == $L asciiValue or: aKeyboardEvent keyValue == 37)
 		ifTrue: [TheWorldMainDockingBar instance startTimeProfileBrowserGlobal].
+		
+	"45 is Mac-equivalent to $N asciiValue"	
+	(aKeyboardEvent keyValue == $N asciiValue or: aKeyboardEvent keyValue == 45)
+		ifTrue: [TheWorldMainDockingBar instance startTimeProfileBrowser].
 	
 	"Select menu items."
 	(aKeyboardEvent keyValue 
