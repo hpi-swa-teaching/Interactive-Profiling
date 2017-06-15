@@ -1,8 +1,14 @@
 menu actions
 startTimeProfileBrowser
 
-	| usersBlock |
-
-	usersBlock := MorphicUIManager new request: 'Type in a block that you want to spy on' initialAnswer: '[<block code>]'.
-	usersBlock ~= '' ifTrue: 
-		[TimeProfileBrowser spyOn: (BlockClosure readFromString: usersBlock)]
+	| proposedBlock usersBlock |
+	
+	proposedBlock := TimeProfileBrowser lastSpyedOnBlock.
+	proposedBlock ifNil: [proposedBlock := '[<block code>]'].
+	
+	usersBlock := MorphicUIManager
+		new request: 'Type in a block that you want to spy on' 
+		initialAnswer: proposedBlock.
+	usersBlock ~= '' ifTrue: [
+		TimeProfileBrowser lastSpyedOnBlock: usersBlock.
+		TimeProfileBrowser spyOn: (BlockClosure readFromString: usersBlock).]
