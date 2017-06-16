@@ -1,5 +1,5 @@
 menu actions
-startTimeProfileBrowserGlobal
+profileGlobal
 
 	(self confirm: 'TimeProfileBrowser will start now,
 and stop when the cursor goes

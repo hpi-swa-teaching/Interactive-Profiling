@@ -19,11 +19,15 @@ filterEvent: aKeyboardEvent for: anObject
 
 	"37 is Mac-equivalent to $L asciiValue"
 	(aKeyboardEvent keyValue == $L asciiValue or: aKeyboardEvent keyValue == 37)
-		ifTrue: [TheWorldMainDockingBar instance startTimeProfileBrowserGlobal].
+		ifTrue: [TheWorldMainDockingBar instance profileGlobal].
 		
 	"45 is Mac-equivalent to $N asciiValue"	
 	(aKeyboardEvent keyValue == $N asciiValue or: aKeyboardEvent keyValue == 45)
-		ifTrue: [TheWorldMainDockingBar instance startTimeProfileBrowser].
+		ifTrue: [TheWorldMainDockingBar instance profileBlock].
+	
+	"46 is Mac-equivalent to $M asciiValue"	
+	(aKeyboardEvent keyValue == $M asciiValue or: aKeyboardEvent keyValue == 46)
+		ifTrue: [TheWorldMainDockingBar instance repeatProfileBlock].
 	
 	"Select menu items."
 	(aKeyboardEvent keyValue 

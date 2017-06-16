@@ -1,5 +1,5 @@
 menu actions
-startTimeProfileBrowser
+profileBlock
 
 	| proposedBlock usersBlock |
 	

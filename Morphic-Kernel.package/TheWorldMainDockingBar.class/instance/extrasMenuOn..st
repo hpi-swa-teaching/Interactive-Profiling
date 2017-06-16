@@ -51,16 +51,22 @@ extrasMenuOn: aDockingBar
 						selector: #startMessageTally].
 				menu addItem:[:item|
 					item
-						contents: 'Start Advanced Profiler' translated;
-						help: 'Starts the Advanced Profiler on a block' translated;
+						contents: 'Profile Block' translated;
+						help: 'Starts the profiler spying on a block provided by the user' translated;
 						target: self;
-						selector: #startTimeProfileBrowser].
+						selector: #profileBlock].
 				menu addItem:[:item|
 					item
-						contents: 'Start Advanced Profiler Globally' translated;
-						help: 'Starts the Advanced Profiler and spies on everything that happens' translated;
+						contents: 'Profile Last Block Again' translated;
+						help: 'Starts the profiler spying on the last spyed on block provided by the user' translated;
 						target: self;
-						selector: #startTimeProfileBrowserGlobal].
+						selector: #repeatProfileBlock].
+				menu addItem:[:item|
+					item
+						contents: 'Profile Global' translated;
+						help: 'Starts the profiler spying on the global environment' translated;
+						target: self;
+						selector: #profileGlobal].
 				menu addItem:[:item|
 					item
 						contents: 'Collect Garbage' translated;
