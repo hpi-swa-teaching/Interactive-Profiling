@@ -5,6 +5,7 @@ buildMessageTreeWith: builder
 	self root: self tallyTree.
 	treeSpec 
 		model: self;
+		hScrollBarPolicy: #whenNeeded;
 		nodeClass: self class nodeClass;
 		roots: #getList;
 		keyPress: #explorerKey:from:event:;
