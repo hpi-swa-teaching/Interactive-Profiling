@@ -2,7 +2,7 @@ events-processing
 filterEvent: aKeyboardEvent for: anObject
 	"Provide keyboard shortcuts."
 	
-	| index itemToSelect |
+	| index itemToSelect os |
 	
 	aKeyboardEvent controlKeyPressed
 		ifFalse: [^ aKeyboardEvent].
@@ -17,16 +17,19 @@ filterEvent: aKeyboardEvent for: anObject
 				morph model activate: aKeyboardEvent in: morph ].
 			^ aKeyboardEvent ignore "hit!"].
 
-	"37 is Mac-equivalent to $L asciiValue"
-	(aKeyboardEvent keyValue == $L asciiValue or: aKeyboardEvent keyValue == 37)
+	os := Smalltalk os platformName.
+	
+	((os = 'Mac OS' and: aKeyboardEvent keyValue == 37) or: 
+	(os = 'Win32' and: aKeyboardEvent keyValue == $L asciiValue) or: 
+	(os = 'unix' and: aKeyboardEvent keyValue == 246))
 		ifTrue: [TheWorldMainDockingBar instance profileGlobal].
 		
-	"45 is Mac-equivalent to $N asciiValue"	
-	(aKeyboardEvent keyValue == $N asciiValue or: aKeyboardEvent keyValue == 45)
+	((os = 'Mac OS' and: aKeyboardEvent keyValue == 45) or: 
+	((os = 'Win32' or: os == 'unix') and: aKeyboardEvent keyValue == $N asciiValue))
 		ifTrue: [TheWorldMainDockingBar instance profileBlock].
 	
-	"46 is Mac-equivalent to $M asciiValue"	
-	(aKeyboardEvent keyValue == $M asciiValue or: aKeyboardEvent keyValue == 46)
+	((os = 'Mac OS' and: aKeyboardEvent keyValue == 46) or: 
+	((os = 'Win32' or: os == 'unix') and: aKeyboardEvent keyValue == $M asciiValue))	
 		ifTrue: [TheWorldMainDockingBar instance repeatProfileBlock].
 	
 	"Select menu items."
