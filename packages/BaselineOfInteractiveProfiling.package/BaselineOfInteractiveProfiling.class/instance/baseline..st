@@ -9,5 +9,5 @@ baseline: spec
 				package: 'InteractiveProfilerTests' with: [ spec requires: #('default')].
 			spec
 				group: 'default' with: #('TimeProfileBrowser');
-				group: 'Tests' with: #('InteractiveProfilerTests');
-				group: 'TravisCI' with: #('Tests') ]
+				group: 'tests' with: #('InteractiveProfilerTests');
+				group: 'TravisCI' with: #('tests') ]
