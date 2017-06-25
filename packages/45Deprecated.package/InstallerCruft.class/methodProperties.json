@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"classProjectLauncher" : "stephane.ducasse 9/30/2008 18:16",
+		"classSakePackages" : "stephane.ducasse 9/30/2008 18:16",
+		"classes" : "stephane.ducasse 9/30/2008 18:16",
+		"history" : "kph 7/25/2007 13:25",
+		"mczInstall:" : "kph 5/24/2007 18:54",
+		"smalltalkImage" : "fbs 7/25/2013 07:10",
+		"sourceFiles" : "stephane.ducasse 9/30/2008 18:20",
+		"unload:" : "stephane.ducasse 9/30/2008 18:30" },
+	"instance" : {
+		"classMCMczReader" : "sd 3/6/2008 20:16",
+		"createRBforBug:" : "mtf 2/3/2010 23:49",
+		"evaluate:" : "sd 3/6/2008 19:10",
+		"info" : "sd 3/6/2008 18:47",
+		"mczInstall:" : "kph 5/24/2007 18:56",
+		"preambleCsForRB:" : "mtf 2/3/2010 23:44",
+		"skipTests" : "kph 12/21/2006 01:28",
+		"viewUrl" : "kph 5/9/2007 21:49" } }

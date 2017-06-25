@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfInteractiveProfiling",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfInteractiveProfiling",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

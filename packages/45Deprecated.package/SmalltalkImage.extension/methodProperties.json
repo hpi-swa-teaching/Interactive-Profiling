@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cleanUpUndoCommands" : "ul 2/12/2011 00:35",
+		"do:" : "ar 3/5/2010 21:17",
+		"forgetDoIts" : "ul 6/17/2011 12:18",
+		"includes:" : "ar 3/5/2010 21:17",
+		"keyAtIdentityValue:ifAbsent:" : "ar 3/5/2010 21:17",
+		"keyAtValue:" : "ul 4/28/2010 11:38",
+		"keys" : "ar 3/5/2010 21:17",
+		"keysAndValuesDo:" : "ul 3/15/2010 06:19",
+		"removeKey:" : "ar 3/5/2010 21:17",
+		"removeKey:ifAbsent:" : "ar 3/5/2010 21:17",
+		"scopeFor:from:envtAndPathIfFound:" : "ar 3/5/2010 21:22",
+		"size" : "ar 3/5/2010 21:18" } }

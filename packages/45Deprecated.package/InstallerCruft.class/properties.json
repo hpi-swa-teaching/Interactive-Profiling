@@ -1,0 +1,14 @@
+{
+	"category" : "45Deprecated-Installer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mtf 10/1/2008 22:24",
+	"instvars" : [
+		 ],
+	"name" : "InstallerCruft",
+	"pools" : [
+		 ],
+	"super" : "Installer",
+	"type" : "normal" }

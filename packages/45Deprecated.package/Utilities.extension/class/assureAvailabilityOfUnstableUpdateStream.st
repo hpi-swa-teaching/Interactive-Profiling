@@ -1,0 +1,4 @@
+*45Deprecated-fetching updates
+assureAvailabilityOfUnstableUpdateStream
+	self deprecated: 'Use UpdateStreamDownloader default >> #assureAvailabilityOfUnstableUpdateStream'.
+	^UpdateStreamDownloader default assureAvailabilityOfUnstableUpdateStream

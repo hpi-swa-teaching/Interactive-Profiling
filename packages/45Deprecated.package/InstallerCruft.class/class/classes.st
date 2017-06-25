@@ -1,0 +1,4 @@
+accessing system
+classes
+
+	^ Smalltalk
