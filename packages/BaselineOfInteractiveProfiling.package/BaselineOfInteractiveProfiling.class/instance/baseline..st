@@ -5,9 +5,9 @@ baseline: spec
 		for: #'common' 
 		do: [
 			spec
-				package: 'TimeProfileBrowser';
-				package: 'InteractiveProfilerTests' with: [ spec requires: #('default')].
+				package: 'Tools-Debugger';
+				package: 'Tools-Debugger' with: [ spec requires: #('default')].
 			spec
-				group: 'default' with: #('TimeProfileBrowser');
-				group: 'tests' with: #('InteractiveProfilerTests');
+				group: 'default' with: #('Tools-Debugger');
+				group: 'tests' with: #('Tools-Debugger');
 				group: 'TravisCI' with: #('tests') ]
