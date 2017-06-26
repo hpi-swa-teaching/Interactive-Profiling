@@ -25,13 +25,15 @@ filterEvent: aKeyboardEvent for: anObject
 		ifTrue: [TheWorldMainDockingBar instance profileGlobal].
 		
 	((os = 'Mac OS' and: aKeyboardEvent keyValue == 45) or: 
-	((os = 'Win32' or: os = 'unix') and: aKeyboardEvent keyValue == $N asciiValue))
+	((os = 'Win32'  and: aKeyboardEvent keyValue == $N asciiValue)) or: 
+	(os = 'unix' and: aKeyboardEvent keyValue == 228))
 		ifTrue: [TheWorldMainDockingBar instance profileBlock].
 	
 	((os = 'Mac OS' and: aKeyboardEvent keyValue == 46) or: 
-	((os = 'Win32' or: os = 'unix') and: aKeyboardEvent keyValue == $M asciiValue))	
+	((os = 'Win32' and: aKeyboardEvent keyValue == $M asciiValue)) or:
+	(os = 'unix' and: aKeyboardEvent keyValue == 252))
 		ifTrue: [TheWorldMainDockingBar instance repeatProfileBlock].
-	
+		
 	"Select menu items."
 	(aKeyboardEvent keyValue 
 		between: $1 asciiValue 
