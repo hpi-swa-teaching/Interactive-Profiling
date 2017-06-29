@@ -1,6 +1,10 @@
 submenu - extras
 extrasMenuOn: aDockingBar 
 
+	| os | 
+	
+	os := Smalltalk os platformName.
+
 	aDockingBar addItem: [ :it|
 		it 	contents: 'Extras' translated;
 			addSubMenu: [:menu|
@@ -52,19 +56,22 @@ extrasMenuOn: aDockingBar
 				menu addItem:[:item|
 					item
 						contents: 'Profile Block' translated;
-						help: '(Ctrl + N) Starts the profiler spying on a block provided by the user' translated;
+						help: 
+							(os = 'unix' ifTrue: ['(Ctrl + Ä) '] ifFalse: ['(Ctrl + N) ']), 'Starts the profiler spying on a block provided by the user' translated;
 						target: self;
 						selector: #profileBlock].
 				menu addItem:[:item|
 					item
 						contents: 'Profile Last Block Again' translated;
-						help: '(Ctrl + M) Starts the profiler spying on the last spyed on block provided by the user' translated;
+						help: 
+							(os = 'unix' ifTrue: ['(Ctrl + Ü) '] ifFalse: ['(Ctrl + M) ']), 'Starts the profiler spying on the last spyed on block provided by the user' translated;
 						target: self;
 						selector: #repeatProfileBlock].
 				menu addItem:[:item|
 					item
 						contents: 'Profile Global' translated;
-						help: '(Ctrl + L) Starts the profiler spying on the global environment' translated;
+						help: 
+							(os = 'unix' ifTrue: ['(Ctrl + Ö) '] ifFalse: ['(Ctrl + L) ']), 'Starts the profiler spying on the global environment' translated;
 						target: self;
 						selector: #profileGlobal].
 				menu addItem:[:item|
