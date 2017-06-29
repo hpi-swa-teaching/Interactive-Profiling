@@ -5,7 +5,10 @@ selectedMessage
 	self setClassAndSelectorIn: [ :class :selector |
 		| source | 
 		source := (class == UndefinedObject and: [ selector == #DoIt ])
-			ifTrue: [ 'DoIt', String cr, String cr, block arguments first decompile decompileString ]
+			ifTrue: [
+				(block arguments first class == Process)
+				ifFalse: [ 'DoIt', String cr, String cr, block arguments first decompile decompileString ]
+				ifTrue: ['This is a Process']]
 			ifFalse: [ class sourceMethodAt: selector ifAbsent: [ ^'Missing' ] ].
 		SystemBrowser browseWithPrettyPrint ifTrue: [
 			source := class prettyPrinterClass 
