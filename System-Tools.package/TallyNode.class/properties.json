@@ -9,7 +9,8 @@
 		"children",
 		"value",
 		"itemSelector",
-		"itemClass" ],
+		"itemClass",
+		"helpText" ],
 	"name" : "TallyNode",
 	"pools" : [
 		 ],
