@@ -1,15 +1,17 @@
 printing
 rootToTallyTreeOn: aTallyTree total: total totalTime: totalTime threshold: threshold
 
-	| groups sons |
+	| groups sons tallyTree |
 	sons := self sonsOver: threshold.
 	groups := sons groupBy: [ :aTally | aTally process ].
 	groups keysAndValuesDo: [ :p :g |
 		(reportOtherProcesses or: [ p notNil ]) ifTrue: [
-			aTallyTree  value: 'Process: ', (p ifNil: [ 'other processes'] ifNotNil: [ p browserPrintString]).
+			tallyTree := TallyNode new.
+			aTallyTree addChild: tallyTree.
+			tallyTree  value: 'Process: ', (p ifNil: [ 'other processes'] ifNotNil: [ p browserPrintString]).
 			g sort do:[:aSon | 
 				aSon 
-					treeToTallyTreeOn: (aTallyTree addChild: TallyNode new) 
+					treeToTallyTreeOn: (tallyTree addChild: TallyNode new) 
 					tabs: OrderedCollection new
 					total: total
 					totalTime: totalTime
