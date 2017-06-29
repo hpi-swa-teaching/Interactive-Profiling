@@ -17,6 +17,8 @@ runProcess: aProcess forMilliseconds: msecDuration pollingEvery: pollPeriod
 		spyEvery: pollPeriod
 		onProcess: aProcess
 		forMilliseconds: msecDuration.
+	self tallyTree: TallyNode new.
+	tally reportToTallyTree: self tallyTree.
 	self initializeMessageList.
 	self changed: #messageList.
 	self changed: #messageListIndex.
