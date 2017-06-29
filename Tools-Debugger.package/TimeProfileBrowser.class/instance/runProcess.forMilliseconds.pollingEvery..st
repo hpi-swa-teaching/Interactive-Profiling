@@ -1,6 +1,5 @@
 private
 runProcess: aProcess forMilliseconds: msecDuration pollingEvery: pollPeriod 
-	| list result |
 	block := MessageSend 
 				receiver: self
 				selector: #runProcess:forMilliseconds:pollingEvery: 
@@ -14,12 +13,10 @@ runProcess: aProcess forMilliseconds: msecDuration pollingEvery: pollPeriod
 		maxClassNameSize: 1000;
 		maxClassPlusSelectorSize: 1000;
 		maxTabs: 100.
-	result := tally 
-				spyEvery: pollPeriod
-				onProcess: aProcess
-				forMilliseconds: msecDuration.
-	list := OrderedCollection withAll: (String streamContents: [ :s | tally report: s]) lines.
-	self initializeMessageList: list.
+	tally 
+		spyEvery: pollPeriod
+		onProcess: aProcess
+		forMilliseconds: msecDuration.
+	self initializeMessageList.
 	self changed: #messageList.
 	self changed: #messageListIndex.
-	^ result

@@ -1,6 +1,5 @@
 private
 runBlock: aBlock pollingEvery: pollPeriod 
-	| list result |
 	block := MessageSend 
 				receiver: self
 				selector: #runBlock:pollingEvery:
@@ -9,15 +8,13 @@ runBlock: aBlock pollingEvery: pollPeriod
 						pollPeriod}.	"so we can re-run it"
 	tally := MessageTally new.
 	tally
-		reportOtherProcesses: false;
+		reportOtherProcesses: true;
 		maxClassNameSize: 1000;
 		maxClassPlusSelectorSize: 1000;
 		maxTabs: 100.
-	result := tally spyEvery: pollPeriod on: aBlock.
-	list := OrderedCollection withAll: (String streamContents: [ :s | tally report: s]) lines.
+	tally spyEvery: pollPeriod on: aBlock.
 	self tallyTree: TallyNode new.
 	tally reportToTallyTree: self tallyTree.
-	self initializeMessageList: list.
+	self initializeMessageList.
 	self changed: #messageList.
 	self changed: #messageListIndex.
-	^ result
