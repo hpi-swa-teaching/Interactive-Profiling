@@ -7,7 +7,7 @@ fullToTallyTreeOn: aTallyTree threshold: perCent
 		total: tally
 		totalTime: time
 		threshold: threshold.
-	leavesTree := TallyNode new value: '**Leaves**'.
+	leavesTree := TallyNode new value: 'Leaves'.
 	aTallyTree addChild: leavesTree.
 	self
 		leavesToTallyTreeOn: leavesTree

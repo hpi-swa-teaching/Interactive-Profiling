@@ -1,0 +1,4 @@
+spying
+memoryHelpText
+
+	^ 'Subnodes show the change of used memory in different categories because of added/deleted objects during profiling. Memory space is divided into young space and old space. When an object is first created, it is put into young space. If an object has been in young space for quite a long time and during an incremental GC it is found that the object is still currently relevant to the executed process, it will be moved to old space. However most of the time, all references to an object will be gone fairly quickly so that that object "dies" in young space and never gets to reside in old space.'
