@@ -14,10 +14,10 @@ reportGCStatsOnTallyTree: aTallyTree
 
 	memTree := TallyNode new value: 'Memory consumption'; helpText: MessageTally memoryHelpText.
 	aTallyTree addChild: memTree.
-	memTree addChild: (TallyNode new value:  'Old space: ', (oldSpaceEnd asStringWithCommasSigned: true), ' bytes'; helpText: '').
-	memTree addChild: (TallyNode new value:  'Young space: ',((youngSpaceEnd - oldSpaceEnd) asStringWithCommasSigned: true), ' bytes'; helpText: '').
-	memTree addChild: (TallyNode new value:  'Overall: ', (youngSpaceEnd asStringWithCommasSigned: true), ' bytes'; helpText: '').
-	memTree addChild: (TallyNode new value:'Free space: ', ((memoryEnd - youngSpaceEnd) asStringWithCommasSigned: true), ' bytes'; helpText: '').
+	memTree addChild: (TallyNode new value:  'Old space: ', (oldSpaceEnd asStringWithCommasSigned: true), ' bytes').
+	memTree addChild: (TallyNode new value:  'Young space: ',((youngSpaceEnd - oldSpaceEnd) asStringWithCommasSigned: true), ' bytes').
+	memTree addChild: (TallyNode new value:  'Overall: ', (youngSpaceEnd asStringWithCommasSigned: true), ' bytes').
+	memTree addChild: (TallyNode new value:'Free space: ', ((memoryEnd - youngSpaceEnd) asStringWithCommasSigned: true), ' bytes').
 
 	gcTree := aTallyTree addChild: (TallyNode new value: 'Garbage collection activity'; helpText: MessageTally gcHelpText).
 	
