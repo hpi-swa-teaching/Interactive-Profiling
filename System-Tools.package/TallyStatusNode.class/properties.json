@@ -1,0 +1,14 @@
+{
+	"category" : "System-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TallyStatusNode",
+	"pools" : [
+		 ],
+	"super" : "TallyNode",
+	"type" : "normal" }

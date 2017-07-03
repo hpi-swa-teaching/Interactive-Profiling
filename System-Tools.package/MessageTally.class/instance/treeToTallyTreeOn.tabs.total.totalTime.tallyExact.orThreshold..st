@@ -15,7 +15,7 @@ treeToTallyTreeOn: aTallyTree tabs: tabs total: total totalTime: totalTime tally
 				| sonTab |
 				sonTab := i < sons size ifTrue: ['  |'] ifFalse: ['  '].
 				(sons at: i) 
-					treeToTallyTreeOn: (aTallyTree addChild: TallyNode new)
+					treeToTallyTreeOn: (aTallyTree addChild: TallyMethodNode new)
 					tabs: (tabs size < self maxTabs 
 							ifTrue: [tabs]
 							ifFalse: [(tabs select: [:x | x = '[']) copyWith: '['])

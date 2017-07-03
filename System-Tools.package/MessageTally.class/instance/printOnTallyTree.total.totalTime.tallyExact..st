@@ -11,7 +11,9 @@ printOnTallyTree: aTallyTree total: total totalTime: totalTime tallyExact: isExa
 				space]
 		ifFalse: 
 			[percentage := tally asFloat / total * 100.0.
-			aTallyTree value: aTallyTree value, (percentage printShowingDecimalPlaces: 1), '% {',  (percentage * totalTime / 100) rounded, 'ms} '].
+			aTallyTree 
+				percentage: percentage;
+				rootTime: totalTime].
 	receivers == nil 
 		ifTrue: 
 			[aTallyTree value:
@@ -21,8 +23,8 @@ printOnTallyTree: aTallyTree total: total totalTime: totalTime tallyExact: isExa
 			aClass := method methodClass.
 			className := aClass name contractTo: self maxClassNameSize.
 			blockNesting > 0 ifTrue:
-				[aTallyTree value: aTallyTree value, '[] '].
+				[aTallyTree methodSelector: '[] '].
 			aTallyTree 
 				itemClass: aClass;
 				itemSelector:  aSelector;
-				value: aTallyTree value,  class name, (aClass = class ifTrue: ['>>'] ifFalse: ['(' , aClass name , ')>>']), (aSelector contractTo: self maxClassPlusSelectorSize - className size)].
+				methodSelector: aTallyTree methodSelector, class name, (aClass = class ifTrue: ['>>'] ifFalse: ['(' , aClass name , ')>>']), (aSelector contractTo: self maxClassPlusSelectorSize - className size)].

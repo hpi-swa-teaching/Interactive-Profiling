@@ -1,0 +1,17 @@
+{
+	"category" : "System-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rootTime",
+		"time",
+		"percentage",
+		"methodSelector" ],
+	"name" : "TallyMethodNode",
+	"pools" : [
+		 ],
+	"super" : "TallyNode",
+	"type" : "normal" }

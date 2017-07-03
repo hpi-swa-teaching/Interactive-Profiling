@@ -12,25 +12,25 @@ reportGCStatsOnTallyTree: aTallyTree
 	tenureCount			:= gcStats at: 11.
 	rootOverflows		:= gcStats at: 22.
 
-	memTree := TallyNode new value: 'Memory consumption'; helpText: MessageTally memoryHelpText.
+	memTree := TallyStatusNode new value: 'Memory consumption'; helpText: MessageTally memoryHelpText.
 	aTallyTree addChild: memTree.
-	memTree addChild: (TallyNode new value:  'Old space: ', (oldSpaceEnd asStringWithCommasSigned: true), ' bytes').
-	memTree addChild: (TallyNode new value:  'Young space: ',((youngSpaceEnd - oldSpaceEnd) asStringWithCommasSigned: true), ' bytes').
-	memTree addChild: (TallyNode new value:  'Overall: ', (youngSpaceEnd asStringWithCommasSigned: true), ' bytes').
-	memTree addChild: (TallyNode new value:'Free space: ', ((memoryEnd - youngSpaceEnd) asStringWithCommasSigned: true), ' bytes').
+	memTree addChild: (TallyStatusNode new value:  'Old space: ', (oldSpaceEnd asStringWithCommasSigned: true), ' bytes').
+	memTree addChild: (TallyStatusNode new value:  'Young space: ',((youngSpaceEnd - oldSpaceEnd) asStringWithCommasSigned: true), ' bytes').
+	memTree addChild: (TallyStatusNode new value:  'Overall: ', (youngSpaceEnd asStringWithCommasSigned: true), ' bytes').
+	memTree addChild: (TallyStatusNode new value:'Free space: ', ((memoryEnd - youngSpaceEnd) asStringWithCommasSigned: true), ' bytes').
 
-	gcTree := aTallyTree addChild: (TallyNode new value: 'Garbage collection activity'; helpText: MessageTally gcHelpText).
+	gcTree := aTallyTree addChild: (TallyStatusNode new value: 'Garbage collection activity'; helpText: MessageTally gcHelpText).
 	
-	gcTree addChild: (TallyNode new value: 'Incremental GCs: ', incrGCs, ', totalling ', incrGCTime asStringWithCommas,' ms (', (incrGCTime / upTime * 100), '% uptime)'; helpText: MessageTally incrementalGcHelpText).
+	gcTree addChild: (TallyStatusNode new value: 'Incremental GCs: ', incrGCs, ', totalling ', incrGCTime asStringWithCommas,' ms (', (incrGCTime / upTime * 100), '% uptime)'; helpText: MessageTally incrementalGcHelpText).
 	incrGCs = 0 ifFalse:
 		[(gcTree children at: 1)	value: (gcTree children at: 1) value, ', on avg ', (incrGCTime / incrGCs), ' ms'].
 	
-	gcTree addChild: (TallyNode new value:'Full GCs: ', fullGCs, ', totalling ',fullGCTime asStringWithCommas, ' ms (', (fullGCTime / upTime * 100), '% uptime)'; helpText: MessageTally fullGcHelpText).
+	gcTree addChild: (TallyStatusNode new value:'Full GCs: ', fullGCs, ', totalling ',fullGCTime asStringWithCommas, ' ms (', (fullGCTime / upTime * 100), '% uptime)'; helpText: MessageTally fullGcHelpText).
 	fullGCs = 0 ifFalse:
 		[(gcTree children at: 2)	value: (gcTree children at: 2) value,  ', on avg ',(fullGCTime / fullGCs), ' ms'].
 	
-	gcTree addChild: (TallyNode new value: 'Tenures: ', (tenureCount asStringWithCommas); helpText: MessageTally tenuresHelpText).
+	gcTree addChild: (TallyStatusNode new value: 'Tenures: ', (tenureCount asStringWithCommas); helpText: MessageTally tenuresHelpText).
 	tenureCount = 0 ifFalse:
 		[(gcTree children at: 3)	value: (gcTree children at: 3) value, ' (on avg ', incrGCs // tenureCount, ' GCs/tenure)'].
 	
-	gcTree addChild: (TallyNode new value: 'Root table overflows: ', rootOverflows asStringWithCommas; helpText: MessageTally rootTableHelpText).
+	gcTree addChild: (TallyStatusNode new value: 'Root table overflows: ', rootOverflows asStringWithCommas; helpText: MessageTally rootTableHelpText).

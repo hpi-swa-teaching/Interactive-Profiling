@@ -13,7 +13,7 @@ runBlock: aBlock pollingEvery: pollPeriod
 		maxClassPlusSelectorSize: 1000;
 		maxTabs: 100.
 	tally spyEvery: pollPeriod on: aBlock.
-	self tallyTree: TallyNode new.
+	self tallyTree: TallyStatusNode new.
 	tally reportToTallyTree: self tallyTree.
 	self initializeMessageList.
 	self changed: #messageList.
