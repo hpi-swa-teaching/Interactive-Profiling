@@ -26,8 +26,7 @@ toTallyTreeOn: aTallyTree total: total totalTime: totalTime tallyExact: isExact
 				itemSelector: aSelector;
 				itemClass: aClass.
 			blockNesting > 0 ifTrue:
-				[blockNesting timesRepeat: (aTallyTree methodSelector: aTallyTree methodSelector, '[').
-				blockNesting timesRepeat: (aTallyTree methodSelector: aTallyTree methodSelector, ']')].
-			aTallyTree methodSelector: class name, '(' , aClass name , ')>>',  (aSelector contractTo: self maxClassPlusSelectorSize - className size)]
+				[blockNesting timesRepeat: (aTallyTree blockNesting:  aTallyTree blockNesting , '[').
+				blockNesting timesRepeat: (aTallyTree blockNesting: aTallyTree blockNesting, ']')]]
 		
 	"value: (percentage printShowingDecimalPlaces: 1), '% {' , (percentage * totalTime / 100) rounded, 'ms'"

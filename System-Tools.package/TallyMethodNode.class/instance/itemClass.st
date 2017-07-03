@@ -1,4 +1,3 @@
 accessing
 itemClass
-
- ^ nil
+	^ itemClass

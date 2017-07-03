@@ -9,7 +9,9 @@
 		"rootTime",
 		"time",
 		"percentage",
-		"methodSelector" ],
+		"blockNesting",
+		"itemClass",
+		"itemSelector" ],
 	"name" : "TallyMethodNode",
 	"pools" : [
 		 ],

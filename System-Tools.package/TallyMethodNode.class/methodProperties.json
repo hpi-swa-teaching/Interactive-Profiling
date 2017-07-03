@@ -2,14 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
+		"blockNesting" : "md 7/3/2017 11:54",
+		"blockNesting:" : "md 7/3/2017 11:54",
 		"icon" : "jak-ing 7/3/2017 11:51",
-		"initialize" : "jak-ing 7/3/2017 11:06",
-		"methodSelector" : "jak-ing 7/3/2017 10:39",
-		"methodSelector:" : "jak-ing 7/3/2017 10:40",
+		"initialize" : "md 7/3/2017 11:56",
+		"itemClass" : "md 7/3/2017 12:00",
+		"itemClass:" : "md 7/3/2017 12:00",
+		"itemSelector" : "md 7/3/2017 12:01",
+		"itemSelector:" : "md 7/3/2017 12:01",
 		"percentage" : "jak-ing 7/3/2017 10:40",
 		"percentage:" : "jak-ing 7/3/2017 10:40",
 		"rootTime" : "jak-ing 7/3/2017 10:56",
 		"rootTime:" : "jak-ing 7/3/2017 10:21",
 		"time" : "jak-ing 7/3/2017 10:41",
 		"time:" : "jak-ing 7/3/2017 10:41",
-		"value" : "jak-ing 7/3/2017 10:56" } }
+		"value" : "md 7/3/2017 11:58" } }

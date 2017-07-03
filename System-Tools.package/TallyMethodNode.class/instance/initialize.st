@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	
-	self methodSelector: ''.
+	self blockNesting: ''.
