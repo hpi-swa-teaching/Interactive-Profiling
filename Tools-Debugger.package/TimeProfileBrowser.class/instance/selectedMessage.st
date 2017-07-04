@@ -6,6 +6,8 @@ selectedMessage
 		ifNil: ['' asText] 
 		ifNotNil: [
 			self currentSelection isStatusNode 
-				ifTrue: [self currentSelection value asText]
+				ifTrue: ['' asText]
 				ifFalse: [self assert: self currentSelection isMethodNode.
-						self currentSelection methodObject getSource].] 
+						(self selectedClass == UndefinedObject and: [self selectedMessageName == #DoIt])
+						ifTrue: ['DoIt', String cr, String cr, block arguments first decompile decompileString]
+						ifFalse: [self currentSelection methodObject sourceString]]] 

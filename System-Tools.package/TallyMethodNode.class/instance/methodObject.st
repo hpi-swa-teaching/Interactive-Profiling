@@ -1,4 +1,4 @@
 accessing
 methodObject
 
-	^ self itemClass >> self itemSelector
+	^ MethodReference class: self itemClass selector: self itemSelector
