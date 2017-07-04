@@ -16,5 +16,5 @@
 	"name" : "TimeProfileBrowser",
 	"pools" : [
 		 ],
-	"super" : "MessageSet",
+	"super" : "CodeHolder",
 	"type" : "normal" }

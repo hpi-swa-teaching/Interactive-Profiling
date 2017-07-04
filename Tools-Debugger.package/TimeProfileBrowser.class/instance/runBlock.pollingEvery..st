@@ -15,6 +15,4 @@ runBlock: aBlock pollingEvery: pollPeriod
 	tally spyEvery: pollPeriod on: aBlock.
 	self tallyTree: TallyStatusNode new.
 	tally reportToTallyTree: self tallyTree.
-	self initializeMessageList.
 	self changed: #messageList.
-	self changed: #messageListIndex.

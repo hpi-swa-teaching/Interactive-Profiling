@@ -1,5 +1,4 @@
 contents
-isModeStyleable
-	"Ensure that only methods are styled."
+isModeStyleable 
 
-	^ self selectedMessageName notNil and: [ super isModeStyleable ]
+	^ true

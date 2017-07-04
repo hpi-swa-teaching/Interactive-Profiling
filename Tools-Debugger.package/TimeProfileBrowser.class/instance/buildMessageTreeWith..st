@@ -13,16 +13,11 @@ buildMessageTreeWith: builder
 		setSelected: #currentSelection:;
 		setSelectedParent: #currentParent:;
 		menu: #genericMenu:;
-		autoDeselect: false;
-		label: #getValueOf: ; "doesnt seem to work"
+		autoDeselect: true;
 		columns: (self class nodeClass showContentsInColumns
 			ifTrue: [{
 				[:listMorph | (listMorph filteredItems collect: [:item |
 					item preferredWidthOfColumn: 1]) max].
-				nil }])";
-		frame: (0@0 corner: 1@0.71)".
-		
-"	SystemBrowser browseWithDragNDrop 
-		ifTrue:[treeSpec dragItem: #dragFromMessageList:]."
-		
-	^treeSpec
+				nil }]).
+			
+	^ treeSpec
