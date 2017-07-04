@@ -14,16 +14,11 @@ printOnTallyTree: aTallyTree total: total totalTime: totalTime tallyExact: isExa
 			aTallyTree 
 				percentage: percentage;
 				rootTime: totalTime].
-	receivers == nil 
-		ifTrue: 
-			[aTallyTree value:
-				aTallyTree value, 'primitives']
-		ifFalse: 
-			[aSelector := method selector.
+			aSelector := method selector.
 			aClass := method methodClass.
 			className := aClass name contractTo: self maxClassNameSize.
 			blockNesting > 0 ifTrue:
 				[aTallyTree blockNesting:  '[] '].
 			aTallyTree 
 				itemClass: aClass;
-				itemSelector:  aSelector].
+				itemSelector:  aSelector.
