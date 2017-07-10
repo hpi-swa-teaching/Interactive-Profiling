@@ -8,7 +8,6 @@ buildMessageTreeWith: builder
 		hScrollBarPolicy: #whenNeeded;
 		nodeClass: self class nodeClass;
 		roots: #getList;
-		keyPress: #explorerKey:from:event:;
 		getSelected: #currentSelection;
 		setSelected: #currentSelection:;
 		setSelectedParent: #currentParent:;
