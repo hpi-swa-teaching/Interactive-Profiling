@@ -2,16 +2,16 @@ as yet unclassified
 buildMessageTreeWith: builder
 	| treeSpec |
 	treeSpec := builder pluggableTreeSpec new.
-	self root: self tallyTree.
 	treeSpec 
 		model: self;
 		hScrollBarPolicy: #whenNeeded;
 		nodeClass: self class nodeClass;
-		roots: #getList;
+		roots: #getRoots;
+		"keyPress: #messageListKey:from:;" "CMD+D means rerunning, but doesnt work yet"
 		getSelected: #currentSelection;
 		setSelected: #currentSelection:;
 		setSelectedParent: #currentParent:;
-		menu: #genericMenu:;
+		"menu: #genericMenu:;"
 		autoDeselect: true;
 		columns: (self class nodeClass showContentsInColumns
 			ifTrue: [{

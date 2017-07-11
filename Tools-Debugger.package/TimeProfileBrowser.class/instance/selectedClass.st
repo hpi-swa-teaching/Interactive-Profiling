@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selectedClass
 	
 	^ self currentSelection itemClass
