@@ -1,4 +1,3 @@
 accessing
 helpText
-	
-	^ nil
+	^ helpText

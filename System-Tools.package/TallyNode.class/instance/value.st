@@ -1,6 +1,4 @@
 accessing
 value
 
-	^ value
-
-	"self subclassResponsibility"
+	self subclassResponsibility.
