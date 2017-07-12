@@ -1,4 +1,4 @@
 message list
-currentParent: anObject
+currentParent: aTallyNode
 
-	currentParent := anObject.
+	currentParent := aTallyNode.
