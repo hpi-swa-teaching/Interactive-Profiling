@@ -5,6 +5,6 @@ buildButtonWith: builder
 	buttonSpec
 		model: self;
 		label: 'Stop';
-		action: [TimeProfileBrowser stopIsRequested: true].
+		action: [self isStopRequested: true].
 			
 	^ buttonSpec

@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildButtonWith:" : "DG 7/7/2017 13:15",
+		"buildButtonWith:" : "DG 7/12/2017 11:40",
 		"buildWith:" : "DG 7/7/2017 16:51",
 		"delete" : "DG 7/7/2017 16:48",
-		"initialize" : "DG 7/7/2017 16:45",
+		"initialize" : "DG 7/12/2017 11:41",
+		"isStopRequested" : "DG 7/12/2017 11:41",
+		"isStopRequested:" : "DG 7/12/2017 11:38",
 		"window" : "DG 7/7/2017 14:41",
 		"window:" : "DG 7/7/2017 14:41" } }
