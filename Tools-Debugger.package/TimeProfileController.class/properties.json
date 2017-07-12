@@ -8,7 +8,7 @@
 	"instvars" : [
 		"window",
 		"isStopRequested" ],
-	"name" : "TimeProfileBrowserController",
+	"name" : "TimeProfileController",
 	"pools" : [
 		 ],
 	"super" : "StringHolder",
