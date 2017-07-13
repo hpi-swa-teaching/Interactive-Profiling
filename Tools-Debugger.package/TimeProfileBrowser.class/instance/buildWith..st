@@ -8,5 +8,5 @@ buildWith: builder
 		(0@max corner: 1@1) -> [self buildCodePaneWith: builder].
 	}.
 	result := builder build: windowSpec.
-	
+	self changed: #expandRootsRequested.
 	^result
