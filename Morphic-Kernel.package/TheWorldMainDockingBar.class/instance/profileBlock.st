@@ -11,4 +11,4 @@ profileBlock
 		initialAnswer: proposedBlock.
 	usersBlock ~= '' ifTrue: [
 		TimeProfileBrowser lastSpyedOnBlock: usersBlock.
-		TimeProfileBrowser spyOn: (BlockClosure readFromString: usersBlock).]
+		TimeProfileBrowser lastSpyedOnTime: (TimeProfileBrowser spyOn: (BlockClosure readFromString: usersBlock)).]

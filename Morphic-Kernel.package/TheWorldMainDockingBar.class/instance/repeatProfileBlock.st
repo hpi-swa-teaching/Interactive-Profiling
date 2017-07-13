@@ -1,4 +1,7 @@
 menu actions
 repeatProfileBlock
 	
-	TimeProfileBrowser spyOn: (BlockClosure readFromString: TimeProfileBrowser lastSpyedOnBlock).
+	| oldTime | 
+	
+	oldTime := TimeProfileBrowser lastSpyedOnTime.
+	TimeProfileBrowser lastSpyedOnTime: (TimeProfileBrowser repeatOnBlock: (BlockClosure readFromString: TimeProfileBrowser lastSpyedOnBlock)).

@@ -2,7 +2,8 @@
 	"category" : "Tools-Debugger",
 	"classinstvars" : [
 		"lastSpyedOnBlock",
-		"stopIsRequested" ],
+		"stopIsRequested",
+		"lastSpyedOnTime" ],
 	"classvars" : [
 		"TextMenu" ],
 	"commentStamp" : "<historical>",
