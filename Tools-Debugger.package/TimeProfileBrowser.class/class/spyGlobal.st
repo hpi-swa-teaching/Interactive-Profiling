@@ -2,7 +2,7 @@ instance creation
 spyGlobal
 	| controller |
 	
-	controller := TimeProfileController new.
+	controller := TimeProfileControl new.
 
 	TimeProfileBrowser spyOn:
 		[[Sensor peekPosition y > 0 and: controller isStopRequested not] 
