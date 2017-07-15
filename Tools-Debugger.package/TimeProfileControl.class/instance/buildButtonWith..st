@@ -5,6 +5,6 @@ buildButtonWith: builder
 	buttonSpec
 		model: self;
 		label: 'Stop';
-		action: [self isStopRequested: true].
+		action: #requestStop.
 			
 	^ buttonSpec
