@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"rootTime",
-		"time",
 		"percentage",
 		"blockNesting",
 		"itemClass",

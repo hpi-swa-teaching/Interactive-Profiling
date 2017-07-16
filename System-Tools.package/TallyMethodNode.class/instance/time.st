@@ -1,4 +1,4 @@
 as yet unclassified
 time
 
-	^ time
+	^ (self percentage * self rootTime / 100) rounded

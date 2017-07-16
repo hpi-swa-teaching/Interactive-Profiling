@@ -1,4 +1,4 @@
 as yet unclassified
-rootTime: anInteger
+rootTime: aNumber
 
-	rootTime := anInteger.
+	rootTime := aNumber.

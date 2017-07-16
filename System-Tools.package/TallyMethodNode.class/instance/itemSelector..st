@@ -1,3 +1,4 @@
 accessing
-itemSelector: anObject
-	itemSelector := anObject
+itemSelector: aSymbol
+
+	itemSelector := aSymbol

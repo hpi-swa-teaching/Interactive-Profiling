@@ -1,3 +1,4 @@
 accessing
-itemClass: anObject
-	itemClass := anObject
+itemClass: aClass
+
+	itemClass := aClass
