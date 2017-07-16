@@ -8,7 +8,6 @@ aboutToStyle: aPluggableShoutMorphOrView
 	
 	| isStyleable |
 	isStyleable := self currentSelection notNil and: [self currentSelection isMethodNode].
-	
 	isStyleable
 		ifTrue: [aPluggableShoutMorphOrView classOrMetaClass: self selectedClass].
 

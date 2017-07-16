@@ -1,22 +1,11 @@
 private
 runProcess: aProcess forMilliseconds: msecDuration pollingEvery: pollPeriod 
-	block := MessageSend 
-				receiver: self
-				selector: #runProcess:forMilliseconds:pollingEvery: 
-				arguments: { 
-						aProcess.
-						msecDuration.
-						pollPeriod}.	"so we can re-run it"
-	tally := MessageTally new.
-	tally
-		reportOtherProcesses: false;
-		maxClassNameSize: 1000;
-		maxClassPlusSelectorSize: 1000;
-		maxTabs: 100.
-	tally 
+	
+	self block: aProcess.
+	self buildTally.
+	self tally 
 		spyEvery: pollPeriod
 		onProcess: aProcess
 		forMilliseconds: msecDuration.
-	self tallyTree: TallyStatusNode new.
-	tally reportToTallyTree: self tallyTree.
-	self changed: #messageList.
+	self buildAndFillTallyTree.
+	^ self tally time
