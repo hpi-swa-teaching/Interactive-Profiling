@@ -1,4 +1,4 @@
 as yet unclassified
 balloonText
 
-	^self item helpText
+	^ self item helpText

@@ -1,3 +1,4 @@
 accessing
-blockNesting: anObject
-	blockNesting := anObject
+blockNesting: aString
+
+	blockNesting := aString

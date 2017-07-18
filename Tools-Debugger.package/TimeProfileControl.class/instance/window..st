@@ -1,3 +1,4 @@
 accessing
-window: anObject
-	window := anObject
+window: aPluggableSystemWindow
+
+	window := aPluggableSystemWindow.

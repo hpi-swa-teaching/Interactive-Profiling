@@ -1,5 +1,6 @@
 initialization
 setItem: anObject model: aModel parent: itemParent
 
-	self parent: itemParent.
-	self setItem: anObject model: aModel
+	self
+		parent: itemParent;
+		setItem: anObject model: aModel.

@@ -3,5 +3,6 @@ initialize
 
 	super initialize.
 	
-	self isStopRequested: false.
-	self window: (ToolBuilder build: self).
+	self
+		isStopRequested: false;
+		window: (ToolBuilder build: self).

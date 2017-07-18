@@ -1,4 +1,4 @@
 accessing
-tallyTree: anObject
+tallyTree: aTallyNode
 
-	tallyTree := anObject.
+	tallyTree := aTallyNode.

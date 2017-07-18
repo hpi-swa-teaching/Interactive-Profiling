@@ -1,4 +1,4 @@
 accessing
 requestStop
 
-	self isStopRequested: true
+	self isStopRequested: true.

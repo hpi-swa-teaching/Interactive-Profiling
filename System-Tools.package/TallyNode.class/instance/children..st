@@ -1,4 +1,4 @@
 accessing
-children: anObject
+children: anOrderedCollection
 
-	children := anObject
+	children := anOrderedCollection.
