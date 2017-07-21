@@ -59,7 +59,7 @@ extrasMenuOn: aDockingBar
 						help: 
 							(os = 'unix' ifTrue: ['(Ctrl + Ä) '] ifFalse: ['(Ctrl + N) ']), 'Starts the profiler spying on a block provided by the user' translated;
 						target: self;
-						selector: #profileBlock].
+						selector: #prepareProfileBlock].
 				menu addItem:[:item|
 					item
 						contents: 'Profile Last Block Again' translated;

@@ -27,7 +27,7 @@ filterEvent: aKeyboardEvent for: anObject
 	((os = 'Mac OS' and: aKeyboardEvent keyValue == 45) or: 
 	((os = 'Win32'  and: aKeyboardEvent keyValue == $N asciiValue)) or: 
 	(os = 'unix' and: aKeyboardEvent keyValue == 228))
-		ifTrue: [TheWorldMainDockingBar instance profileBlock].
+		ifTrue: [TheWorldMainDockingBar instance prepareProfileBlock].
 	
 	((os = 'Mac OS' and: aKeyboardEvent keyValue == 46) or: 
 	((os = 'Win32' and: aKeyboardEvent keyValue == $M asciiValue)) or:
