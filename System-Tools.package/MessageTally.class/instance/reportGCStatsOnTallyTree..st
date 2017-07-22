@@ -31,6 +31,6 @@ reportGCStatsOnTallyTree: aTallyTree
 	
 	gcTree addChild: (TallyStatusNode new value: 'Tenures: ', (tenureCount asStringWithCommas); helpText: MessageTally tenuresHelpText).
 	tenureCount = 0 ifFalse:
-		[(gcTree children at: 3)	value: (gcTree children at: 3) value, ' (on avg ', incrGCs // tenureCount, ' GCs/tenure)'].
+		[(gcTree children at: 3)	value: (gcTree children at: 3) value, ' (on avg ', (incrGCs // tenureCount), ' GCs/tenure)'].
 	
 	gcTree addChild: (TallyStatusNode new value: 'Root table overflows: ', rootOverflows asStringWithCommas; helpText: MessageTally rootTableHelpText).
