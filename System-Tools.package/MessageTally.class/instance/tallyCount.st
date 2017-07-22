@@ -1,5 +1,5 @@
 reporting
-tally
+tallyCount
 	"Answer the receiver's number of tally."
 
-	^tally
+	^tallyCount

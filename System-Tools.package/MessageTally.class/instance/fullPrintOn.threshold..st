@@ -1,11 +1,11 @@
 printing
 fullPrintOn: aStream threshold: perCent
 	| threshold |  
-	threshold := (perCent asFloat / 100 * tally) rounded.
+	threshold := (perCent asFloat / 100 * tallyCount) rounded.
 	aStream nextPutAll: '**Tree**'; cr.
 	self
 		rootPrintOn: aStream
-		total: tally
+		total: tallyCount
 		totalTime: time
 		threshold: threshold.
 	aStream nextPut: Character newPage; cr.

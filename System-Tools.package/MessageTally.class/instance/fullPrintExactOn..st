@@ -5,7 +5,7 @@ fullPrintExactOn: aStream
 		treePrintOn: aStream
 		tabs: OrderedCollection new
 		thisTab: ''
-		total: tally
+		total: tallyCount
 		totalTime: time
 		tallyExact: true
 		orThreshold: nil.

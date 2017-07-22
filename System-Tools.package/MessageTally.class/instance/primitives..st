@@ -1,5 +1,5 @@
 private
 primitives: anInteger
 
-	tally := anInteger.
+	tallyCount := anInteger.
 	receivers := nil
