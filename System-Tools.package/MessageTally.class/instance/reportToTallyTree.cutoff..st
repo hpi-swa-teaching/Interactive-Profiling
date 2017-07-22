@@ -5,6 +5,3 @@ reportToTallyTree: aTallyStatusNode cutoff: threshold
 		ifFalse: 
 			[aTallyStatusNode value: tally printString,  ' tallies, ', time printString, ' msec.'.
 			self fullToTallyTreeOn: aTallyStatusNode threshold: threshold].
-		
-	time isZero ifFalse:	
-		[self reportGCStatsOnTallyTree: aTallyStatusNode].

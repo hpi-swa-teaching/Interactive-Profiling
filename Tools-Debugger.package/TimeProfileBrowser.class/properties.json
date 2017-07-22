@@ -13,7 +13,9 @@
 		"methodReferences",
 		"currentSelection",
 		"currentParent",
-		"tallyTree" ],
+		"tallyTree",
+		"leavesRoots",
+		"statusRoots" ],
 	"name" : "TimeProfileBrowser",
 	"pools" : [
 		 ],

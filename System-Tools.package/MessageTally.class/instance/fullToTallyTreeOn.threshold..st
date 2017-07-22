@@ -1,14 +1,9 @@
 printing
 fullToTallyTreeOn: aTallyTree threshold: perCent
-	| threshold leavesTree|  
+	| threshold|  
 	threshold := (perCent asFloat / 100 * tally) rounded.
 	self
 		rootToTallyTreeOn: aTallyTree
 		total: tally
 		totalTime: time
 		threshold: threshold.
-	leavesTree := TallyStatusNode new value: 'Leaves'.
-	aTallyTree addChild: leavesTree.
-	self
-		leavesToTallyTreeOn: leavesTree
-		threshold: threshold
