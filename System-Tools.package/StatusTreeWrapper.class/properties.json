@@ -1,0 +1,14 @@
+{
+	"category" : "System-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ShowContentsInColumns" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"parent" ],
+	"name" : "StatusTreeWrapper",
+	"pools" : [
+		 ],
+	"super" : "ListItemWrapper",
+	"type" : "normal" }
