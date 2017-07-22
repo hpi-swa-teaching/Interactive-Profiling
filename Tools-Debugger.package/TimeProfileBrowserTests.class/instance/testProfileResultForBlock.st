@@ -8,5 +8,5 @@ testProfileResultForBlock
 	(Delay forMilliseconds: 5000) wait.
 	profilerResultMorph := (profilerResult dependents select: [:instance | instance isKindOf: PluggableSystemWindow]) first.
 	profilerResultMorphWrapper := MTFMorphWrapper newWith: {profilerResultMorph}.
-	self assert: (profilerResultMorphWrapper findByCriteria: [:morph | (morph isKindOf: IndentingListItemMorph) and: [morph getLabel = 'Process: other processes']]) morphs size == 1.
-	self assert: (profilerResultMorphWrapper findByCriteria: [:morph | (morph isKindOf: IndentingListItemMorph) and: [morph getLabel =  'No tallies obtained']]) morphs size == 0.
+	self assert: (profilerResultMorphWrapper findByCriteria: [:morph | (morph isKindOf: IndentingListItemMorph) and: [morph getLabel includesSubstring: 'Process:']]) morphs notEmpty.
+	self assert: (profilerResultMorphWrapper findByCriteria: [:morph | (morph isKindOf: IndentingListItemMorph) and: [morph getLabel =  'No tallies obtained']]) morphs isEmpty.
