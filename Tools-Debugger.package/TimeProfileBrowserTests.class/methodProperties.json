@@ -3,11 +3,13 @@
 		 },
 	"instance" : {
 		"block" : "jak-ing 7/21/2017 22:55",
+		"defaultProfileGlobalTime" : "jak-ing 7/22/2017 18:31",
 		"emptyBlock" : "jak-ing 7/22/2017 12:38",
 		"getProfilerMorphs" : "jak-ing 7/22/2017 13:08",
 		"setUp" : "jak-ing 7/17/2017 18:30",
 		"tearDown" : "jak-ing 7/22/2017 13:19",
 		"testProfileBlock" : "jak-ing 7/22/2017 15:50",
 		"testProfileEmptyBlock" : "jak-ing 7/22/2017 13:24",
+		"testProfileGlobal" : "jak-ing 7/22/2017 18:42",
 		"testProfileResultForBlock" : "jak-ing 7/22/2017 16:54",
 		"testProfileResultForEmptyBlock" : "jak-ing 7/22/2017 16:51" } }
