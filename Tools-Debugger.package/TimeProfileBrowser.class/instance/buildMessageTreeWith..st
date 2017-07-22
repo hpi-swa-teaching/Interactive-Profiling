@@ -7,7 +7,7 @@ buildMessageTreeWith: builder
 	^ treeSpec 
 		model: self;
 		hScrollBarPolicy: #whenNeeded;
-		nodeClass: self class nodeClass;
+		nodeClass: self class messageNodeClass;
 		roots: #getRoots;
 		getSelected: #currentSelection;
 		setSelected: #currentSelection:;

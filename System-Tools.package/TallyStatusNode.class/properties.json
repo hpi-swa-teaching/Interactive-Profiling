@@ -7,9 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"value",
-		"helpText" ],
+		"helpText",
+		"children" ],
 	"name" : "TallyStatusNode",
 	"pools" : [
 		 ],
-	"super" : "TallyNode",
+	"super" : "Object",
 	"type" : "normal" }

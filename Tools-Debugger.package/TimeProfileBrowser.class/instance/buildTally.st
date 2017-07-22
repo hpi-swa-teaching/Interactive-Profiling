@@ -6,4 +6,5 @@ buildTally
 		reportOtherProcesses: true;
 		maxClassNameSize: 1000;
 		maxClassPlusSelectorSize: 1000;
-		maxTabs: 100.
+		maxTabs: 100;
+		root: self tally.

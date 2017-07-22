@@ -24,7 +24,8 @@
 		"time0",
 		"startTime",
 		"endTime",
-		"preHibernationCopy" ],
+		"preHibernationCopy",
+		"root" ],
 	"name" : "MessageTally",
 	"pools" : [
 		 ],

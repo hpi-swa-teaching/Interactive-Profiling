@@ -7,7 +7,7 @@ buildLeavesTreeWith: builder
 	^ treeSpec 
 		model: self;
 		hScrollBarPolicy: #whenNeeded;
-		nodeClass: self class nodeClass;
+		nodeClass: self class messageNodeClass;
 		roots: #leavesRoots;
 		getSelected: #currentSelection;
 		setSelected: #currentSelection:;

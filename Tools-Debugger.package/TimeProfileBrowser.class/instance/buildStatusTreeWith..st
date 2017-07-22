@@ -7,6 +7,6 @@ buildStatusTreeWith: builder
 	^ treeSpec 
 		model: self;
 		hScrollBarPolicy: #whenNeeded;
-		nodeClass: StatusTreeWrapper;
+		nodeClass: self class statusNodeClass;
 		roots: #statusRoots;
 		autoDeselect: true

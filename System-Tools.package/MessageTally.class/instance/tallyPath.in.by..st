@@ -20,7 +20,8 @@ tallyPath: context in: aProcess by: count
 					reportOtherProcesses: reportOtherProcesses;
 					maxClassNameSize: maxClassNameSize;
 					maxClassPlusSelectorSize: maxClassPlusSelectorSize;
-					maxTabs: maxTabs.
+					maxTabs: maxTabs;
+					root: self root.
 		receivers := receivers copyWith: path].
 
 	^path bumpBy: count

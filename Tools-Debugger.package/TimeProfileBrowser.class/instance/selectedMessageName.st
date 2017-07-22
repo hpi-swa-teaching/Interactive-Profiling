@@ -1,4 +1,4 @@
 accessing
 selectedMessageName
 
-	^ self currentSelection ifNotNilDo: [:i | i itemSelector]
+	^ self currentSelection ifNotNilDo: [:i | i method selector]

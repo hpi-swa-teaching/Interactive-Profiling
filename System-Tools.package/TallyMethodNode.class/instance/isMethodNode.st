@@ -1,4 +1,0 @@
-testing
-isMethodNode
-
-	^ true

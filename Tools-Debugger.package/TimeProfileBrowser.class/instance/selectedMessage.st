@@ -3,8 +3,6 @@ selectedMessage
 	"Answer the source method for the currently selected message."
 
 	self needsCodeDisplayed ifFalse: [^ ''].
-	
-	self assert: self currentSelection isMethodNode.
 	^ self hasDoItSelected
 		ifTrue: [self block decompile decompileString]
-		ifFalse: [self currentSelection methodObject sourceString]
+		ifFalse: [self currentSelection method decompile decompileString]
