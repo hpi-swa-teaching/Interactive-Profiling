@@ -1,4 +1,4 @@
-as yet unclassified
+magic values
 defaultProfileGlobalTime
 
 	^ 5000

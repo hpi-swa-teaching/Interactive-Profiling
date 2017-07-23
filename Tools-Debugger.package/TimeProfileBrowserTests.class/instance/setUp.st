@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 setUp
 
 	"self wantsToTest: World mainDockingBars first."
