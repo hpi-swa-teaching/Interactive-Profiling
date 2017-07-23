@@ -22,7 +22,7 @@ testProfileGlobal
 	self assert: profilerCollectionDiff size == 1.
 	profilerResult := profilerCollectionDiff first.
 	profilerResultWrapper := MTFMorphWrapper newWith: {profilerResult}.
-	timeListItem := profilerResultWrapper findByCriteria: [:morph | (morph isKindOf: IndentingListItemMorph) and: [morph contents includesSubstring: 'Time']].
+	timeListItem := profilerResultWrapper findByCriteria: [:morph | (morph isKindOf: IndentingListItemMorph) and: [morph contents includesSubstring: 'Time: ']].
 	tallyTime := (timeListItem contents copyFrom: 'Time: ' size + 1 to: (timeListItem contents size - 'ms' size)) asInteger.
 	self assert: (tallyTime between: self defaultProfileGlobalTime - 300 and: self defaultProfileGlobalTime + 300).
 	
