@@ -1,4 +1,4 @@
 accessing
 selectedClass
 	
-	^ self currentSelection itemClass
+	^ self currentSelection method methodClass

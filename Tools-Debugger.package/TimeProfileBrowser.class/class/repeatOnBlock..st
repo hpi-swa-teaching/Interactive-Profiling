@@ -7,7 +7,7 @@ repeatOnBlock: block
 
 	| inst result |
 	inst := self new.
-	result := inst runBlock: block.
+	result := inst repeatRunBlock: block lastTime: self lastSpyedOnTime.
 	self open: inst name: 
 		'Time Profile (',
 		(result - self lastSpyedOnTime) asStringWithCommasSigned, 'ms, ',

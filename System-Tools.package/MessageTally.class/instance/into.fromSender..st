@@ -7,4 +7,4 @@ into: leafDict fromSender: senderTally
 						[(self class new class: class method: method nesting: blockNesting)
 							process: process;
 							reportOtherProcesses: reportOtherProcesses].
-	leafNode bump: tally fromSender: senderTally
+	leafNode bump: tallyCount fromSender: senderTally

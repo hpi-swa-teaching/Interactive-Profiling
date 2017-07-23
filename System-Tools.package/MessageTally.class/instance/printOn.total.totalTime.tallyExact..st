@@ -3,14 +3,14 @@ printOn: aStream total: total totalTime: totalTime tallyExact: isExact
 	| aSelector className myTally aClass percentage |
 	isExact 
 		ifTrue: 
-			[myTally := tally.
+			[myTally := tallyCount.
 			receivers == nil 
-				ifFalse: [receivers do: [:r | myTally := myTally - r tally]].
+				ifFalse: [receivers do: [:r | myTally := myTally - r tallyCount]].
 			aStream
 				print: myTally;
 				space]
 		ifFalse: 
-			[percentage := tally asFloat / total * 100.0.
+			[percentage := tallyCount asFloat / total * 100.0.
 			aStream
 				nextPutAll: (percentage printShowingDecimalPlaces: 1);
 				nextPutAll: '% {';

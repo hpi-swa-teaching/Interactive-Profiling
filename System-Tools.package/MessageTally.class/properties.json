@@ -12,7 +12,6 @@
 		"method",
 		"blockNesting",
 		"process",
-		"tally",
 		"receivers",
 		"senders",
 		"time",
@@ -24,7 +23,9 @@
 		"time0",
 		"startTime",
 		"endTime",
-		"preHibernationCopy" ],
+		"preHibernationCopy",
+		"root",
+		"tallyCount" ],
 	"name" : "MessageTally",
 	"pools" : [
 		 ],

@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"showContentsInColumns" : "MD 6/1/2017 17:30",
+		"showContentsInColumns:" : "MD 6/1/2017 17:30",
+		"with:model:parent:" : "MD 6/5/2017 17:24",
+		"with:name:model:" : "MD 6/5/2017 17:23",
+		"with:name:model:parent:" : "MD 6/5/2017 17:24" },
+	"instance" : {
+		"asString" : "md 7/16/2017 18:18",
+		"contents" : "md 7/22/2017 18:26",
+		"fraction" : "md 7/22/2017 18:39",
+		"hasContents" : "md 7/22/2017 17:38",
+		"icon" : "md 7/22/2017 18:02",
+		"itemClass" : "md 7/22/2017 17:51",
+		"itemName" : "md 7/22/2017 18:39",
+		"itemSelector" : "md 7/22/2017 17:51",
+		"parent" : "md 7/16/2017 18:19",
+		"parent:" : "MD 6/1/2017 17:30",
+		"refresh" : "md 7/16/2017 18:21",
+		"setItem:model:parent:" : "md 7/18/2017 12:41" } }

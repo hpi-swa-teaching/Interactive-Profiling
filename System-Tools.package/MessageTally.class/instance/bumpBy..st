@@ -1,4 +1,4 @@
 tallying
 bumpBy: count
 
-	tally := tally + count
+	tallyCount := tallyCount + count

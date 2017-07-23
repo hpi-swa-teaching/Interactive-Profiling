@@ -3,5 +3,5 @@ class: aClass method: aMethod
 
 	class := aClass.
 	method := aMethod.
-	tally := blockNesting := 0.
+	tallyCount := blockNesting := 0.
 	receivers := {}
