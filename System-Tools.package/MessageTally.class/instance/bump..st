@@ -1,3 +1,4 @@
 collecting leaves
-bump: hitCount
-	tallyCount := tallyCount + hitCount
+bump: aNumber
+
+	tallyCount := tallyCount + aNumber.

@@ -1,4 +1,4 @@
 tallying
-bumpBy: count
+bumpBy: aNumber
 
-	tallyCount := tallyCount + count
+	tallyCount := tallyCount + aNumber.

@@ -1,4 +1,4 @@
 accessing
-itemName
+itemChildren
 
 	^ self subclassResponsibility

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 asString
 
 	^ self itemName ifNil: ['']

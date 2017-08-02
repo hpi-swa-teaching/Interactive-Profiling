@@ -1,5 +1,4 @@
-testing
-addChild: aTallyTree
+updating
+addChild: aTallyStatusNode
 
-	self children add: aTallyTree.
-	^aTallyTree
+	self children add: aTallyStatusNode.

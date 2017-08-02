@@ -1,4 +1,4 @@
 accessing
 helpText: aString
 
-	helpText := aString
+	helpText := aString.

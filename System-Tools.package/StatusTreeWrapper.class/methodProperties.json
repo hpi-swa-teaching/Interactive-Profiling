@@ -7,10 +7,5 @@
 		"with:name:model:parent:" : "md 7/22/2017 13:41" },
 	"instance" : {
 		"balloonText" : "md 7/22/2017 13:41",
-		"contents" : "md 7/22/2017 15:57",
-		"hasContents" : "md 7/22/2017 13:41",
-		"itemName" : "md 7/22/2017 13:41",
-		"parent" : "md 7/22/2017 13:41",
-		"parent:" : "md 7/22/2017 13:41",
-		"refresh" : "md 7/22/2017 13:41",
-		"setItem:model:parent:" : "md 7/22/2017 13:41" } }
+		"itemChildren" : "DG 8/2/2017 18:02",
+		"itemName" : "md 7/22/2017 13:41" } }

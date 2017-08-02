@@ -8,17 +8,12 @@
 	"instance" : {
 		"computePercentage" : "jak-ing 8/2/2017 17:37",
 		"computeTime" : "jak-ing 8/2/2017 17:39",
-		"contents" : "jak-ing 8/2/2017 17:28",
 		"fraction" : "md 8/2/2017 15:53",
-		"hasContents" : "md 7/22/2017 17:38",
 		"icon" : "jak-ing 8/2/2017 17:31",
+		"itemChildren" : "DG 8/2/2017 18:02",
 		"itemClass" : "md 7/22/2017 17:51",
 		"itemName" : "jak-ing 8/2/2017 17:41",
 		"itemSelector" : "md 7/22/2017 17:51",
-		"parent" : "md 7/16/2017 18:19",
-		"parent:" : "jak-ing 8/2/2017 17:43",
 		"percentageString" : "jak-ing 8/2/2017 17:41",
-		"refresh" : "jak-ing 8/2/2017 17:50",
-		"setItem:model:parent:" : "jak-ing 8/2/2017 17:51",
 		"tallyIcon" : "jak-ing 8/2/2017 17:33",
 		"timeString" : "jak-ing 8/2/2017 17:42" } }
