@@ -1,8 +1,6 @@
 message list
 contents: aString notifying: aController 
-	"Compile the code in aString. Notify aController of any syntax errors. 
-	Answer false if the compilation fails. Otherwise, if the compilation 
-	created a new method, deselect the current selection. Then answer true."
+	"Copied from MessageSet as TimeProfileBrowser doesn't inherit from MessageSet anymore but method is needed."
 
 	| category selector class oldSelector |
 	self okayToAccept ifFalse: [^ false].

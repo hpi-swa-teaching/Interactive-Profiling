@@ -1,4 +1,4 @@
-message list
+accessing
 currentParent
 
 	^ currentParent

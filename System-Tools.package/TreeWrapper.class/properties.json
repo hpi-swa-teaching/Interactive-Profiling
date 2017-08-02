@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
-	"commentStamp" : "<historical>",
+		"ShowContentsInColumns" ],
+	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "StatusTreeWrapper",
+		"parent" ],
+	"name" : "TreeWrapper",
 	"pools" : [
 		 ],
-	"super" : "TreeWrapper",
+	"super" : "ListItemWrapper",
 	"type" : "normal" }

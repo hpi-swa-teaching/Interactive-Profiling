@@ -1,4 +1,4 @@
 accessing
-parent: aWrapper
+parent: aMessageTallyWrapper
 	
-	parent := aWrapper.
+	parent := aMessageTallyWrapper.

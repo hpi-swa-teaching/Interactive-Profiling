@@ -1,13 +1,14 @@
-as yet unclassified
-buildWith: builder
+toolbuilder
+buildWith: aMorphicToolBuilder
 
 	| windowSpec |
-	windowSpec := self buildWindowWith: builder specs: {
-		(0@0 corner: 1@1) -> [self buildButtonWith: builder].
+	
+	windowSpec := self buildWindowWith: aMorphicToolBuilder specs: {
+		(0@0 corner: 1@1) -> [self buildButtonWith: aMorphicToolBuilder].
 	}.
 	windowSpec 
 		model: self;
-		label: 'Active Profiling';
+		label: 'Active Profiling' translated;
 		extent: 200@50.
 	
-	^ builder open: windowSpec.
+	^ aMorphicToolBuilder open: windowSpec.

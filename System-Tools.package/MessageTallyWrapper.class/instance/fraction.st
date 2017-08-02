@@ -1,4 +1,4 @@
-accessing
+private
 fraction
 
 	^ (self item root tallyCount = 0)

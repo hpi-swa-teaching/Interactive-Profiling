@@ -1,15 +1,15 @@
-message list
+accessing
 selectedMessage
 	"Answer the source method for the currently selected message."
 
 	| headline |
 	
-	self needsCodeDisplayed ifFalse: [^ ''].
+	self needsToDisplayCode ifFalse: [^ ''].
 	
-	headline := (self hasDoItSelected and: [self block class == Process])
+	headline := (self hasSelectionMethodReference or: [self block class ~= Process])
 		ifTrue: ['']
 		ifFalse: ['DoIt', String cr, String cr].
 
-	^ self hasDoItSelected
-		ifTrue: [headline, self block decompile decompileString]
-		ifFalse: [self currentSelection method methodReference source]
+	^ self hasSelectionMethodReference
+		ifTrue: [self currentSelection method methodReference source]
+		ifFalse: [headline, self block decompile decompileString]

@@ -1,4 +1,4 @@
 message list
-needsCodeDisplayed
+needsToDisplayCode
 
 	^ self currentSelection notNil

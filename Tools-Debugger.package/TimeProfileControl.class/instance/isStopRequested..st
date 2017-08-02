@@ -1,4 +1,4 @@
 accessing
 isStopRequested: aBoolean
 
-	isStopRequested := aBoolean
+	isStopRequested := aBoolean.

@@ -1,6 +1,6 @@
-initialization
-setItem: anObject model: aModel parent: itemParent
+initialize-release
+setItem: aMessageTally model: aModel parent: anotherMessageTally
 
 	self
-		parent: itemParent;
-		setItem: anObject model: aModel.
+		parent: anotherMessageTally;
+		setItem: aMessageTally model: aModel.

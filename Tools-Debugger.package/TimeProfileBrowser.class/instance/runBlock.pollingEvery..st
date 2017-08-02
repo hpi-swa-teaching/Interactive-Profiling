@@ -5,5 +5,5 @@ runBlock: aBlock pollingEvery: pollPeriod
 		block: aBlock;
 		buildTally.
 	self tally spyEvery: pollPeriod on: aBlock.
-	self buildAndFillTallyTree.
+	self setRoots.
 	^ self tally time

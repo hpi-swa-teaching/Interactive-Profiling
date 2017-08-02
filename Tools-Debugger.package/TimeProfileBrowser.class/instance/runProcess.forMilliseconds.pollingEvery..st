@@ -1,12 +1,12 @@
 private
-runProcess: aProcess forMilliseconds: msecDuration pollingEvery: pollPeriod 
+runProcess: aProcess forMilliseconds: aNumber pollingEvery: anotherNumber
 	
 	self 
 		block: aProcess;
 		buildTally.
 	self tally 
-		spyEvery: pollPeriod
+		spyEvery: anotherNumber
 		onProcess: aProcess
-		forMilliseconds: msecDuration.
-	self buildAndFillTallyTree.
+		forMilliseconds: aNumber.
+	self setRoots.
 	^ self tally time

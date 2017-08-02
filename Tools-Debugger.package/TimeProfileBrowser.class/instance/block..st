@@ -1,4 +1,4 @@
 accessing
 block: aBlock
 
-	block := aBlock
+	block := aBlock.

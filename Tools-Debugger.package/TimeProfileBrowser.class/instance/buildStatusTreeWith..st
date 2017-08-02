@@ -1,4 +1,4 @@
-contents
+toolbuilder
 buildStatusTreeWith: builder
 	
 	| treeSpec |

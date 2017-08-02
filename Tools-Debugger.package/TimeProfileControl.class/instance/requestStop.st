@@ -1,4 +1,4 @@
-accessing
+updating
 requestStop
 
 	self isStopRequested: true.

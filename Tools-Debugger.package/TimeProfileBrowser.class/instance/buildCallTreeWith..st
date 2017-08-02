@@ -1,8 +1,8 @@
 toolbuilder
-buildLeavesTreeWith: aMorphicToolBuilder
+buildCallTreeWith: aMorphicToolBuilder
 	
 	| treeSpec |
 	
 	treeSpec := self buildMessageTallyTreeWith: aMorphicToolBuilder.
-	treeSpec roots: #leavesRoots.
+	treeSpec roots: #callsRoots.
 	^ treeSpec

@@ -1,4 +1,4 @@
-message list
-currentParent: aTallyNode
+accessing
+currentParent: aMessageTally
 
-	currentParent := aTallyNode.
+	currentParent := aMessageTally.

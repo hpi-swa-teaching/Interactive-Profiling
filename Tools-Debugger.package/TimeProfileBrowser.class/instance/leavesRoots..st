@@ -1,3 +1,4 @@
 accessing
-leavesRoots: anObject
-	leavesRoots := anObject
+leavesRoots: aCollection
+
+	leavesRoots := aCollection.

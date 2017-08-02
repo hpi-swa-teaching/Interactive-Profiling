@@ -1,14 +1,12 @@
 accessing
 itemName
 
-	| blocks percentage time message |
+	| blocks message |
 	
-	percentage := ((self fraction * 100) printShowingDecimalPlaces: 1) asString.
-	time := self fraction * self item root tallyCount printShowingDecimalPlaces: 0.
-	message :=  '', self itemClass, ' >> ' ,self itemSelector.
 	blocks := ''.
 	self item blockNesting 
 		timesRepeat: [blocks := blocks, '['];
 		timesRepeat: [blocks := blocks, ']'].
+	message :=  '', self itemClass, ' >> ', self itemSelector.
 
-	^ percentage, '% {', time, 'ms} ', blocks, ' ', message
+	^ self percentageString, ' {', self timeString, '} ', blocks, ' ', message

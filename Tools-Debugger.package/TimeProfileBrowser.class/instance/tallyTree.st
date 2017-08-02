@@ -1,4 +1,0 @@
-accessing
-tallyTree
-
-	^ tallyTree

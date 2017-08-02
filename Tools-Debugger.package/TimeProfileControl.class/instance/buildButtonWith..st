@@ -1,10 +1,12 @@
-as yet unclassified
-buildButtonWith: builder
+toolbuilder
+buildButtonWith: aMorphicToolBuilder
+
 	| buttonSpec |
-	buttonSpec := builder pluggableButtonSpec new.
+
+	buttonSpec := aMorphicToolBuilder pluggableButtonSpec new.
 	buttonSpec
 		model: self;
-		label: 'Stop';
+		label: 'Stop' translated;
 		action: #requestStop.
 			
 	^ buttonSpec

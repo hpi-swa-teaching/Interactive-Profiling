@@ -1,10 +1,10 @@
-message list
-currentSelection: anObject
+accessing
+currentSelection: aMessageTally
 
-	self currentSelection == anObject ifTrue: [
-		self changed: #objectChanged with: anObject.
+	self currentSelection == aMessageTally ifTrue: [
+		self changed: #objectChanged with: aMessageTally.
 		^ self].
-	currentSelection := anObject.
+	currentSelection := aMessageTally.
 	
 	self changed: #currentSelection.
 	self changed: #style.

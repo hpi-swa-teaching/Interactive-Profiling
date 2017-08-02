@@ -1,3 +1,4 @@
 accessing
-statusRoots: anObject
-	statusRoots := anObject
+statusRoots: aCollection
+
+	statusRoots := aCollection.
