@@ -5,4 +5,4 @@ selectedMessage
 	self needsCodeDisplayed ifFalse: [^ ''].
 	^ self hasDoItSelected
 		ifTrue: [self block decompile decompileString]
-		ifFalse: [self currentSelection method decompile decompileString]
+		ifFalse: [self currentSelection method methodReference source]
