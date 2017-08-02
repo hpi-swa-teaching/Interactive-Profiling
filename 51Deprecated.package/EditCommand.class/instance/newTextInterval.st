@@ -1,0 +1,3 @@
+accessors
+newTextInterval
+	^newTextInterval

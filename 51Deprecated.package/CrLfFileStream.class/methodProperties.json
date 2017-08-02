@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"defaultToCR" : "ar 1/20/98 16:10",
+		"defaultToCRLF" : "ar 1/20/98 16:10",
+		"defaultToLF" : "ar 1/20/98 16:10",
+		"guessDefaultLineEndConvention" : "fbs 7/25/2013 07:08",
+		"initialize" : "di 2/4/1999 09:16",
+		"new" : "dtl 4/4/2015 15:28",
+		"startUp" : "djp 1/28/1999 22:08" },
+	"instance" : {
+		"ascii" : "ar 1/20/98 16:16",
+		"binary" : "ar 1/20/98 16:16",
+		"convertStringFromCr:" : "ar 1/20/98 16:21",
+		"convertStringToCr:" : "ar 1/20/98 16:21",
+		"detectLineEndConvention" : "ls 7/10/1998 23:35",
+		"lineEndConvention" : "nk 9/5/2004 12:58",
+		"next" : "ls 11/5/1998 23:37",
+		"next:" : "ls 12/29/1998 17:15",
+		"nextPut:" : "ar 1/20/98 16:18",
+		"nextPutAll:" : "ar 1/20/98 16:18",
+		"open:forWrite:" : "ar 1/20/98 16:15",
+		"peek" : "wod 6/18/1998 13:52",
+		"upTo:" : "wod 11/5/1998 14:15",
+		"upToAnyOf:do:" : "nice 12/7/2009 08:26",
+		"verbatim:" : "ar 1/20/98 16:18" } }

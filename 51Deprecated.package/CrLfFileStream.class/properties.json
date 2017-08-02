@@ -1,0 +1,19 @@
+{
+	"category" : "51Deprecated-Files-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Cr",
+		"CrLf",
+		"Lf",
+		"LineEndDefault",
+		"LineEndStrings",
+		"LookAheadCount" ],
+	"commentStamp" : "ul 12/26/2010 03:13",
+	"instvars" : [
+		"lineEndConvention" ],
+	"name" : "CrLfFileStream",
+	"pools" : [
+		 ],
+	"super" : "StandardFileStream",
+	"type" : "normal" }

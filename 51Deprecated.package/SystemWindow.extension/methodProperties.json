@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"activateAndForceLabelToShow" : "mt 5/17/2016 16:00",
+		"activateWindow" : "mt 5/17/2016 15:48",
+		"activeOnlyOnTop" : "mt 5/17/2016 12:15",
+		"activeOnlyOnTop:" : "mt 5/17/2016 11:46",
+		"adjustBorderUponActivationWhenLabeless" : "mt 5/17/2016 16:33",
+		"adjustBorderUponDeactivationWhenLabeless" : "mt 5/17/2016 16:33",
+		"bringBehind:" : "mt 5/17/2016 14:30",
+		"setLabelFont:" : "yo 6/30/2004 00:21" } }

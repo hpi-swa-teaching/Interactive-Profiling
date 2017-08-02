@@ -1,0 +1,14 @@
+{
+	"category" : "51Deprecated-Morphic-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"transferMorph" ],
+	"name" : "TransferMorphAnimation",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"primLocalMicrosecondClock" : "ul 4/27/2013 22:00",
+		"primMicrosecondClock" : "dtl 8/14/2010 15:25",
+		"primMillisecondClock" : "brp 8/23/2003 22:01",
+		"primMillisecondClockMask" : "dtl 4/13/2011 08:02",
+		"primSecondsClock" : "brp 8/23/2003 22:01",
+		"primUTCMicrosecondClock" : "ul 4/27/2013 22:05",
+		"secondsWhenClockTicks" : "kph 12/14/2006 01:43" },
+	"instance" : {
+		 } }

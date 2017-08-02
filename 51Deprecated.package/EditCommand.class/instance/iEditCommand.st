@@ -1,0 +1,3 @@
+accessors
+iEditCommand
+	^true

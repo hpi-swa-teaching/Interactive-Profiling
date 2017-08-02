@@ -1,0 +1,14 @@
+{
+	"category" : "51Deprecated-PreferenceBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PBWindowColorPreferenceView",
+	"pools" : [
+		 ],
+	"super" : "PBColorPreferenceView",
+	"type" : "normal" }

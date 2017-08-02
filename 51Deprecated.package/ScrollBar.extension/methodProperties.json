@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"createArrowOfDirection:in:" : "dgd 3/28/2003 20:43",
+		"createBoxIn:" : "dgd 3/28/2003 10:29",
+		"updateScrollBarButtonAspect:color:" : "mt 7/25/2016 13:41",
+		"updateScrollBarButtonsAspect:color:" : "dgd 3/28/2003 20:29",
+		"verticesForComplexArrow:" : "dgd 3/28/2003 10:21",
+		"verticesForSimpleArrow:" : "dgd 3/28/2003 10:21" },
+	"instance" : {
+		"scrollDown" : "ar 10/7/2000 15:12",
+		"scrollUp" : "ar 10/7/2000 15:11" } }

@@ -1,0 +1,3 @@
+selection
+doSelectionInterval
+	^self redoSelectionInterval

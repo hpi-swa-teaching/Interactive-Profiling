@@ -1,0 +1,14 @@
+{
+	"category" : "51Deprecated-Morphic-Text Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"textMorph" ],
+	"name" : "TextMorphCommandHistory",
+	"pools" : [
+		 ],
+	"super" : "CommandHistory",
+	"type" : "normal" }

@@ -1,0 +1,20 @@
+{
+	"category" : "51Deprecated-Morphic-Text Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"textMorph",
+		"phase",
+		"replacedText",
+		"replacedTextInterval",
+		"newText",
+		"newTextInterval",
+		"lastSelectionInterval" ],
+	"name" : "EditCommand",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
