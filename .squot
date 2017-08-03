@@ -1,9 +1,9 @@
 OrderedDictionary {
-	'Kernel-Methods.package' : #SquotCypressCodeSerializer,
-	'Kernel-Processes.package' : #SquotCypressCodeSerializer,
-	'Morphic-Kernel.package' : #SquotCypressCodeSerializer,
-	'Morphic-Menus-DockingBar.package' : #SquotCypressCodeSerializer,
-	'System-Tools.package' : #SquotCypressCodeSerializer,
-	'TimeProfileBrowser-Tests.package' : #SquotCypressCodeSerializer,
-	'Tools-Debugger.package' : #SquotCypressCodeSerializer
+	'packages\/Kernel-Methods.package' : #SquotCypressCodeSerializer,
+	'packages\/Kernel-Processes.package' : #SquotCypressCodeSerializer,
+	'packages\/Morphic-Kernel.package' : #SquotCypressCodeSerializer,
+	'packages\/Morphic-Menus-DockingBar.package' : #SquotCypressCodeSerializer,
+	'packages\/System-Tools.package' : #SquotCypressCodeSerializer,
+	'packages\/TimeProfileBrowser-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/Tools-Debugger.package' : #SquotCypressCodeSerializer
 }
