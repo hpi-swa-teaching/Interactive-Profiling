@@ -1,0 +1,14 @@
+{
+	"category" : "InteractiveProfiler-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "StatusTreeWrapper",
+	"pools" : [
+		 ],
+	"super" : "TreeWrapper",
+	"type" : "normal" }

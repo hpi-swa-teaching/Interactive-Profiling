@@ -1,0 +1,22 @@
+{
+	"category" : "InteractiveProfiler-Core",
+	"classinstvars" : [
+		"lastSpyedOnBlock",
+		"stopIsRequested",
+		"lastSpyedOnTime" ],
+	"classvars" : [
+		"TextMenu" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"block",
+		"tally",
+		"methodReferences",
+		"currentSelection",
+		"currentParent",
+		"leavesRoots",
+		"statusRoots" ],
+	"name" : "TimeProfileBrowser",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

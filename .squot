@@ -1,6 +1,8 @@
 OrderedDictionary {
 	'packages\/BaselineOfInteractiveProfiling.package' : #SquotCypressCodeSerializer,
 	'packages\/Interactive-Profiler.package' : #SquotCypressCodeSerializer,
+	'packages\/InteractiveProfiler-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/InteractiveProfiler-Tests.package' : #SquotCypressCodeSerializer,
 	'packages\/Kernel-Methods.package' : #SquotCypressCodeSerializer,
 	'packages\/Kernel-Processes.package' : #SquotCypressCodeSerializer,
 	'packages\/Morphic-Kernel.package' : #SquotCypressCodeSerializer,

@@ -1,0 +1,15 @@
+{
+	"category" : "InteractiveProfiler-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"window",
+		"isStopRequested" ],
+	"name" : "TimeProfileControl",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

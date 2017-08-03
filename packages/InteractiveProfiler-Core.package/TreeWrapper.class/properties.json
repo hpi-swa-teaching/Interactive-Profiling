@@ -1,0 +1,14 @@
+{
+	"category" : "InteractiveProfiler-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ShowContentsInColumns" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent" ],
+	"name" : "TreeWrapper",
+	"pools" : [
+		 ],
+	"super" : "ListItemWrapper",
+	"type" : "normal" }
