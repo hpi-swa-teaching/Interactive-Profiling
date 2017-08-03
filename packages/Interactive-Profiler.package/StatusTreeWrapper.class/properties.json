@@ -1,5 +1,5 @@
 {
-	"category" : "System-Tools",
+	"category" : "Interactive-Profiler",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,7 +7,7 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "MessageTallyWrapper",
+	"name" : "StatusTreeWrapper",
 	"pools" : [
 		 ],
 	"super" : "TreeWrapper",

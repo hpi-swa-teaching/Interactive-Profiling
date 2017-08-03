@@ -1,5 +1,5 @@
 {
-	"category" : "Tools-Debugger",
+	"category" : "Interactive-Profiler",
 	"classinstvars" : [
 		"lastSpyedOnBlock",
 		"stopIsRequested",

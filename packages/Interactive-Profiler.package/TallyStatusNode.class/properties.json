@@ -1,15 +1,16 @@
 {
-	"category" : "Tools-Debugger",
+	"category" : "Interactive-Profiler",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"window",
-		"isStopRequested" ],
-	"name" : "TimeProfileControl",
+		"value",
+		"helpText",
+		"children" ],
+	"name" : "TallyStatusNode",
 	"pools" : [
 		 ],
-	"super" : "StringHolder",
+	"super" : "Object",
 	"type" : "normal" }
