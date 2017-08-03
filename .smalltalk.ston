@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'InteractiveProfiling',
+      #baseline : 'InteractiveProfiler',
       #directory : 'packages',
       #platforms : [ #squeak ],
       #load : 'Tests',
