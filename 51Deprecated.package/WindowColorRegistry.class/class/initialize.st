@@ -1,3 +1,0 @@
-registry
-initialize
-	self refresh.

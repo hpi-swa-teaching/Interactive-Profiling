@@ -1,3 +1,0 @@
-accessors
-textMorphEditor
-	^textMorph editor

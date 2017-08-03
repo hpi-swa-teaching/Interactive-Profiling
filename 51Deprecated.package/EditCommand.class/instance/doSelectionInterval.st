@@ -1,3 +1,0 @@
-selection
-doSelectionInterval
-	^self redoSelectionInterval
