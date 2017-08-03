@@ -3,11 +3,11 @@ sudo: false
 
 # Select operating system(s)
 os:
-  - linux
+#  - linux
   - osx
 
 # Select compatible Smalltalk image(s)
 smalltalk:
-  - Squeak-trunk
-  - Squeak-5.1
+#  - Squeak-trunk
+#  - Squeak-5.1
   - Squeak-5.0
