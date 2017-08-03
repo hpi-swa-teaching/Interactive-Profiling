@@ -4,6 +4,9 @@ baseline: spec
 	spec 
 		for: #'common' 
 		do: [
+			spec baseline: 'Morphic-Testing-Framework' with: [
+				spec
+					repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/repository'. ].
 			spec
 				"package: 'Kernel-Methods';"
 				"package: 'Kernel-Processes';"
