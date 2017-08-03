@@ -14,7 +14,7 @@ baseline: spec
 				"package: 'Morphic-Menus-DockingBar';"
 				package: 'System-Tools';
 				package: 'Tools-Debugger';
-				package: 'TimeProfileBrowser-Tests' with: [ spec requires: #('default' 'Morphic-Testing-Framework')].
+				package: 'TimeProfileBrowser-Tests' with: [ spec requires: #('default' 'Project12')].
 			spec
 				group: 'default' with: #('System-Tools' 'Tools-Debugger');
 				group: 'Tests' with: #('TimeProfileBrowser-Tests');
