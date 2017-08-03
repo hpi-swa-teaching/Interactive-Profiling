@@ -1,7 +1,4 @@
 OrderedDictionary {
-	'51Deprecated-Files.package' : #SquotCypressCodeSerializer,
-	'51Deprecated.package' : #SquotCypressCodeSerializer,
-	'AST-Core.package' : #SquotCypressCodeSerializer,
 	'Kernel-Methods.package' : #SquotCypressCodeSerializer,
 	'Kernel-Processes.package' : #SquotCypressCodeSerializer,
 	'Morphic-Kernel.package' : #SquotCypressCodeSerializer,
