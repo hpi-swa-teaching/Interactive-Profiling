@@ -1,4 +1,4 @@
-debugging
+*Interactive-Profiler
 decompile 
 
 	^ suspendedContext decompile 
