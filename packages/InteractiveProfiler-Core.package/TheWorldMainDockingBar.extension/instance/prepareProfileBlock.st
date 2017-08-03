@@ -10,4 +10,4 @@ prepareProfileBlock
 	usersBlockString := MorphicUIManager
 		new request: 'Type in a block that you want to spy on' 
 		initialAnswer: proposedBlockString.
-	(usersBlockString ~= '' and: [usersBlockString ~= self defaultProposedBlockString]) ifTrue: [self profileBlock: (BlockClosure readFromString: usersBlockString)]
+	(usersBlockString ~= '' and: [usersBlockString ~= self class defaultProposedBlockString]) ifTrue: [self profileBlock: (BlockClosure readFromString: usersBlockString)]
