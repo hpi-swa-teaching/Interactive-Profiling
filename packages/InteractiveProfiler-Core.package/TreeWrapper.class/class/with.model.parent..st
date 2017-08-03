@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 with: anObject model: aModel parent: aParent
 
 	^self new 
