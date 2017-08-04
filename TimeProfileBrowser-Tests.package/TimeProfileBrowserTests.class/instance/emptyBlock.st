@@ -1,4 +1,0 @@
-magic values
-emptyBlock
-
-	^ []

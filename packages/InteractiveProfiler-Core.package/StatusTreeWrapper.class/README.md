@@ -1,0 +1,1 @@
+I am an adapter between PluggableTreeSpec and simple recursive tree structures

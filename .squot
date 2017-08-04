@@ -1,9 +1,5 @@
 OrderedDictionary {
-	'Kernel-Methods.package' : #SquotCypressCodeSerializer,
-	'Kernel-Processes.package' : #SquotCypressCodeSerializer,
-	'Morphic-Kernel.package' : #SquotCypressCodeSerializer,
-	'Morphic-Menus-DockingBar.package' : #SquotCypressCodeSerializer,
-	'System-Tools.package' : #SquotCypressCodeSerializer,
-	'TimeProfileBrowser-Tests.package' : #SquotCypressCodeSerializer,
-	'Tools-Debugger.package' : #SquotCypressCodeSerializer
+	'packages\/BaselineOfInteractiveProfiler.package' : #SquotCypressCodeSerializer,
+	'packages\/InteractiveProfiler-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/InteractiveProfiler-Tests.package' : #SquotCypressCodeSerializer
 }

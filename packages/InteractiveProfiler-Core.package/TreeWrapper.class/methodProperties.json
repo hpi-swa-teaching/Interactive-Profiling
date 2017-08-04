@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"showContentsInColumns" : "md 8/4/2017 00:06",
+		"showContentsInColumns:" : "md 8/4/2017 00:06",
+		"with:model:parent:" : "md 8/4/2017 00:05",
+		"with:name:model:" : "md 8/4/2017 00:05",
+		"with:name:model:parent:" : "md 8/4/2017 00:04" },
+	"instance" : {
+		"asString" : "jak-ing 8/2/2017 17:55",
+		"contents" : "DG 8/2/2017 18:03",
+		"hasContents" : "DG 8/2/2017 18:02",
+		"itemChildren" : "DG 8/2/2017 18:01",
+		"itemName" : "jak-ing 8/2/2017 17:55",
+		"parent" : "DG 8/2/2017 18:04",
+		"parent:" : "DG 8/2/2017 18:05",
+		"refresh" : "DG 8/2/2017 18:06",
+		"setItem:model:parent:" : "DG 8/2/2017 18:06" } }

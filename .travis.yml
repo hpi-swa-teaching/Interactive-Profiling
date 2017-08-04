@@ -4,7 +4,7 @@ sudo: false
 # Select operating system(s)
 os:
   - linux
-  - osx
+#  - osx
 
 # Select compatible Smalltalk image(s)
 smalltalk:

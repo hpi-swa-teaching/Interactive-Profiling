@@ -1,3 +1,0 @@
-comparisons
-isClassReference
-	^true

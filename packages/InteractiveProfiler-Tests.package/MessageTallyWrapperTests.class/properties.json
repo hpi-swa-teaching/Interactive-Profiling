@@ -1,0 +1,14 @@
+{
+	"category" : "InteractiveProfiler-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"item" ],
+	"name" : "MessageTallyWrapperTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

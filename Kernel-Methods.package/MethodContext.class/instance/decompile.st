@@ -1,4 +1,0 @@
-debugging
-decompile 
-
-	^ method decompile
