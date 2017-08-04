@@ -1,9 +1,9 @@
 toolbuilder
-buildStatusTreeWith: builder
+buildStatusTreeWith: aMorphicToolBuilder
 	
 	| treeSpec |
 	
-	treeSpec := builder pluggableTreeSpec new.
+	treeSpec := aMorphicToolBuilder pluggableTreeSpec new.
 	^ treeSpec 
 		model: self;
 		hScrollBarPolicy: #whenNeeded;
