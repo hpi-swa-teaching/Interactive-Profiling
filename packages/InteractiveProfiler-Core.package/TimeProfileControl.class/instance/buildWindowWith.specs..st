@@ -1,6 +1,6 @@
 toolbuilder
 buildWindowWith: builder specs: specs
-	"copied from StringHolder" 
+	"Copied from StringHolder" 
 	| windowSpec |
 
 	windowSpec := self buildWindowWith: builder.

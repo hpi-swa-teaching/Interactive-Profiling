@@ -8,5 +8,4 @@ buildButtonWith: aMorphicToolBuilder
 		model: self;
 		label: 'Stop' translated;
 		action: #requestStop.
-			
 	^ buttonSpec

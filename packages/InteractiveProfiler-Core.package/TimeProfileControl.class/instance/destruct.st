@@ -1,4 +1,4 @@
 updating
-delete
+destruct
 
 	self changed: #close.

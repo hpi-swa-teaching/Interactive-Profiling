@@ -1,1 +1,1 @@
-Contributed by Bob Arning as part of the ObjectExplorer package.
+I am an adapter between PluggableTreeSpec and MessageTally

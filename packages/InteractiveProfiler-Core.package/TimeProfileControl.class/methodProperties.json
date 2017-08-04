@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildButtonWith:" : "jak-ing 8/2/2017 17:25",
+		"buildButtonWith:" : "jak-9ng 8/4/2017 17:06",
 		"buildWindowWith:" : "md 8/4/2017 11:33",
-		"buildWindowWith:specs:" : "md 8/4/2017 11:37",
-		"buildWith:" : "jak-ing 8/2/2017 17:24",
-		"delete" : "md 8/4/2017 11:30",
+		"buildWindowWith:specs:" : "jak-9ng 8/4/2017 17:06",
+		"buildWith:" : "jak-9ng 8/4/2017 17:07",
+		"destruct" : "jak-9ng 8/4/2017 17:06",
 		"initialize" : "md 8/4/2017 11:31",
 		"isStopRequested" : "DG 7/12/2017 11:41",
 		"isStopRequested:" : "jak-ing 8/2/2017 17:21",

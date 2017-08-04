@@ -10,5 +10,4 @@ buildWith: aMorphicToolBuilder
 		model: self;
 		label: 'Active Profiling' translated;
 		extent: 200@50.
-	
-	^ aMorphicToolBuilder open: windowSpec.
+	^ aMorphicToolBuilder open: windowSpec

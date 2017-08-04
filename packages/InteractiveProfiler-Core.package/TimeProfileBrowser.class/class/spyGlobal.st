@@ -5,7 +5,7 @@ spyGlobal
 	controller := TimeProfileControl new.
 
 	TimeProfileBrowser spyOn:
-		[[Sensor peekPosition y > 0 and: controller isStopRequested not] 
+		[[controller isStopRequested not] 
 			whileTrue: [World doOneCycle]].
 	
-	controller delete.
+	controller destruct.
