@@ -20,17 +20,17 @@ filterEvent: aKeyboardEvent for: anObject
 	os := Smalltalk os platformName.
 	
 	((os = 'Mac OS' and: aKeyboardEvent keyValue == 41) or: 
-	(os = 'Win32' and: aKeyboardEvent keyValue == $ö asciiValue) or: 
+	(os = 'Win32' and: aKeyboardEvent keyValue == $G asciiValue) or: 
 	(os = 'unix' and: aKeyboardEvent keyValue == 246))
 		ifTrue: [TheWorldMainDockingBar instance profileGlobal].
 		
 	((os = 'Mac OS' and: aKeyboardEvent keyValue == 45) or: 
-	((os = 'Win32'  and: aKeyboardEvent keyValue == $n asciiValue)) or: 
+	((os = 'Win32'  and: aKeyboardEvent keyValue == $N asciiValue)) or: 
 	(os = 'unix' and: aKeyboardEvent keyValue == 228))
 		ifTrue: [TheWorldMainDockingBar instance prepareProfileBlock].
 	
 	((os = 'Mac OS' and: aKeyboardEvent keyValue == 33) or: 
-	((os = 'Win32' and: aKeyboardEvent keyValue == $ü asciiValue)) or:
+	((os = 'Win32' and: aKeyboardEvent keyValue == $Q asciiValue)) or:
 	(os = 'unix' and: aKeyboardEvent keyValue == 252))
 		ifTrue: [TheWorldMainDockingBar instance repeatProfileBlock].
 		
