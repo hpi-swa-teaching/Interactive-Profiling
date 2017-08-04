@@ -6,4 +6,4 @@ profilerResultIsEmpty: aMorph
 	profilerResultMorphWrapper := MTFMorphWrapper newWith: {aMorph}.
 	^ (profilerResultMorphWrapper findByCriteria: [:morph | 
 		(morph isKindOf: IndentingListItemMorph) 
-		and: [morph getLabel =  'No tallies obtained']]) morphs notEmpty.
+		and: [morph getLabel =  'Tallies: 0']]) morphs notEmpty.

@@ -4,7 +4,7 @@ testProfileGlobal
 	| buttonCollection buttonCollectionDiff buttonMorph stopButton profilerCollection profilerCollectionDiff profilerResult profilerResultWrapper timeListItem tallyTime|
 
 	buttonCollection := self getActiveProfilingWindows.
-	[TheWorldMainDockingBar new profileGlobal] newProcess resume.
+	[TimeProfileBrowser profileGlobal] newProcess resume.
 	(Delay forMilliseconds: self defaultProfileGlobalTime) wait.
 	buttonCollectionDiff := self getActiveProfilingWindows difference: buttonCollection.
 	self assert: buttonCollectionDiff size == 1.

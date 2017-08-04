@@ -4,7 +4,7 @@ testProfileEmptyBlock
 	| profilerCollection profilerCollectionDiff |
 
 	profilerCollection := TimeProfileBrowser allInstances.
-	TheWorldMainDockingBar new profileBlock: self emptyBlock.
+	TimeProfileBrowser profileBlock: self emptyBlock.
 	profilerCollectionDiff := TimeProfileBrowser allInstances difference: profilerCollection.
 	
 "	profilerMorphCollection := self getProfilerMorphs.
