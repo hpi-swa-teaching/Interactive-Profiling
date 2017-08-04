@@ -5,6 +5,6 @@ testInitialization
 	
 	timeProfileControl := TimeProfileControl new.
 	self assert: (timeProfileControl isStopRequested not).
-	timeProfileControl delete.
+	timeProfileControl destruct.
 	Smalltalk garbageCollect.
 	

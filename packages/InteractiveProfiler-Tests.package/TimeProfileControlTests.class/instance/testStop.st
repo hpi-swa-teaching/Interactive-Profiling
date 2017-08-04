@@ -6,6 +6,6 @@ testStop
 	timeProfileControl := TimeProfileControl new.
 	timeProfileControl requestStop.
 	self assert: (timeProfileControl isStopRequested).
-	timeProfileControl delete.
+	timeProfileControl destruct.
 	Smalltalk garbageCollect.
 	
