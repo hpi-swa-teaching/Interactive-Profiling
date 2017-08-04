@@ -1,11 +1,11 @@
 *InteractiveProfiler-Core-override
-activate: evt 
+activate: anEvent
 	"Receiver should be activated; e.g., so that control passes  
 	correctly."
 	
-	oldKeyboardFocus := evt hand keyboardFocus.
-	self oldMouseFocus: evt hand mouseFocus.
-	evt hand 
+	oldKeyboardFocus := anEvent hand keyboardFocus.
+	self oldMouseFocus: anEvent hand mouseFocus.
+	anEvent hand 
 		newKeyboardFocus: self;
 		newMouseFocus: self.
-	self ensureSelectedItem: evt
+	self ensureSelectedItem: anEvent
