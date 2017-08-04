@@ -1,7 +1,7 @@
 reporting
 reportGCStatsAsTree
 	
-	| gcTree  fullGCs fullGCTime incrGCs incrGCTime tenureCount upTime rootOverflows |
+	| gcTree fullGCs fullGCTime incrGCs incrGCTime tenureCount upTime rootOverflows |
 	
 	upTime 			:= time.
 	fullGCs				:= gcStats at: 7.

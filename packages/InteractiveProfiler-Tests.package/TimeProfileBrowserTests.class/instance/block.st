@@ -1,4 +1,4 @@
 magic values
 block
 
-	^ [100 timesRepeat: [Transcript show: 100 factorial]]
+	^ [100000 timesRepeat: [100 factorial]]
