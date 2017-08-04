@@ -4,4 +4,6 @@ repeatProfileBlock
 	| oldTime | 
 	
 	oldTime := TimeProfileBrowser lastSpyedOnTime.
-	TimeProfileBrowser lastSpyedOnTime: (TimeProfileBrowser repeatOnBlock: TimeProfileBrowser lastSpyedOnBlock).
+	TimeProfileBrowser existsLastSpyedOnBlock
+		ifTrue: [TimeProfileBrowser lastSpyedOnTime: 
+			(TimeProfileBrowser repeatOnBlock: TimeProfileBrowser lastSpyedOnBlock).]
