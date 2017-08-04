@@ -1,11 +1,10 @@
 accessing
 currentSelection: aMessageTally
 
-	self currentSelection == aMessageTally ifTrue: [
-		self changed: #objectChanged with: aMessageTally.
-		^ self].
-	currentSelection := aMessageTally.
-	
-	self changed: #currentSelection.
-	self changed: #style.
-	self contentsChanged.
+	self currentSelection == aMessageTally 
+		ifTrue: [self changed: #objectChanged with: aMessageTally.]
+		ifFalse: [
+			currentSelection := aMessageTally.
+			self changed: #currentSelection.
+			self changed: #style.
+			self contentsChanged.]
