@@ -18,13 +18,13 @@ filterEvent: aKeyboardEvent for: anObject
 			^ aKeyboardEvent ignore "hit!"].
 
 	(self osDependentKeyPressed: aKeyboardEvent keyValues: {41. $G. 246})
-		ifTrue: [TheWorldMainDockingBar instance profileGlobal].
+		ifTrue: [TimeProfileBrowser profileGlobal].
 		
 	(self osDependentKeyPressed: aKeyboardEvent keyValues: {45. $N. 228})
-		ifTrue: [TheWorldMainDockingBar instance prepareProfileBlock].
+		ifTrue: [TimeProfileBrowser prepareProfileBlock].
 	
 	(self osDependentKeyPressed: aKeyboardEvent keyValues: {33. $Q. 252})
-		ifTrue: [TheWorldMainDockingBar instance repeatProfileBlock].
+		ifTrue: [TimeProfileBrowser repeatProfileBlock].
 		
 	"Select menu items."
 	(aKeyboardEvent keyValue 

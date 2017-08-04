@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"defaultProposedBlockString" : "jak-9ng 8/4/2017 18:12",
 		"existsLastSpyedOnBlock" : "jak-9ng 8/4/2017 14:11",
 		"lastSpyedOnBlock" : "jak-ing 6/15/2017 23:26",
 		"lastSpyedOnBlock:" : "jak-ing 6/15/2017 23:26",
@@ -8,8 +9,11 @@
 		"messageNodeClass" : "md 7/22/2017 18:27",
 		"onBlock:" : "sd 11/20/2005 21:28",
 		"open:name:" : "md 7/4/2017 15:18",
+		"prepareProfileBlock" : "jak-9ng 8/4/2017 18:11",
+		"profileBlock:" : "jak-9ng 8/4/2017 18:06",
+		"profileGlobal" : "jak-9ng 8/4/2017 18:06",
 		"repeatOnBlock:" : "jak-9ng 8/4/2017 17:01",
-		"spyGlobal" : "jak-9ng 8/4/2017 17:06",
+		"repeatProfileBlock" : "jak-9ng 8/4/2017 18:02",
 		"spyOn:" : "md 7/13/2017 18:27",
 		"spyOnProcess:forMilliseconds:" : "sd 11/20/2005 21:28",
 		"statusNodeClass" : "md 7/22/2017 18:24" },

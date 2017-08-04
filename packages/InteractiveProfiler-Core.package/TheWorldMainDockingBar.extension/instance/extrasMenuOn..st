@@ -58,21 +58,21 @@ extrasMenuOn: aDockingBar
 						contents: 'Profile Block' translated;
 						help: 
 							(os = 'unix' ifTrue: ['(Ctrl + Ä)'] ifFalse: ['(Ctrl + N)']), ' Starts the profiler spying on a block provided by the user' translated;
-						target: self;
+						target: TimeProfileBrowser;
 						selector: #prepareProfileBlock].
 				menu addItem:[:item|
 					item
 						contents: 'Profile Last Block Again' translated;
 						help: 
 							(os = 'Win32' ifTrue: ['(Ctrl + Q)'] ifFalse: ['(Ctrl + Ü']), ' Starts the profiler spying on the last spyed on block provided by the user' translated;
-						target: self;
+						target: TimeProfileBrowser;
 						selector: #repeatProfileBlock].
 				menu addItem:[:item|
 					item
 						contents: 'Profile Global' translated;
 						help: 
 							(os = 'Win32' ifTrue: ['(Ctrl + G)'] ifFalse: ['(Ctrl + Ö']), ' Starts the profiler spying on the global environment' translated;
-						target: self;
+						target: TimeProfileBrowser;
 						selector: #profileGlobal].
 				menu addItem:[:item|
 					item

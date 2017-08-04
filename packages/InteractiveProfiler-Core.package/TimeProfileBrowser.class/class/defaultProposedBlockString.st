@@ -1,4 +1,4 @@
-*InteractiveProfiler-Core
+instance creation
 defaultProposedBlockString
 
 	^ '[<block code>]'
