@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"activeProfilingWindows" : "jak-9ng 8/4/2017 19:51",
+		"block" : "jak-9ng 8/4/2017 10:45",
+		"defaultProfileGlobalTime" : "jak-ing 7/22/2017 18:31",
+		"emptyBlock" : "jak-ing 7/22/2017 12:38",
+		"parseResultTimeFrom:" : "jak-9ng 8/4/2017 19:51",
+		"profileBlock:" : "jak-9ng 8/4/2017 19:56",
+		"profilerResultIncludesRoot:" : "jak-9ng 8/4/2017 19:50",
+		"profilerResultIsEmpty:" : "jak-9ng 8/4/2017 19:47",
+		"profilingResultWindows" : "jak-9ng 8/4/2017 19:51",
+		"setUp" : "jak-9ng 8/4/2017 19:38",
+		"startInNewProcess:andWait:" : "jak-9ng 8/4/2017 19:59",
+		"startInNewProcess:andWaitFor:" : "jak-9ng 8/4/2017 20:00",
+		"tearDown" : "jak-9ng 8/4/2017 19:53",
+		"testProfileBlock" : "jak-9ng 8/4/2017 19:56",
+		"testProfileEmptyBlock" : "jak-9ng 8/4/2017 19:57",
+		"testProfileGlobal" : "jak-9ng 8/4/2017 20:06",
+		"testProfileResultForBlock" : "jak-9ng 8/4/2017 20:08",
+		"testProfileResultForEmptyBlock" : "jak-9ng 8/4/2017 19:52",
+		"windowOf:" : "jak-9ng 8/4/2017 19:52" } }

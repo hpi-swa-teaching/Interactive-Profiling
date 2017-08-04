@@ -1,4 +1,4 @@
-magic values
+accessing
 defaultProfileGlobalTime
 
 	^ 5000

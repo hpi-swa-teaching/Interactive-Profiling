@@ -1,4 +1,4 @@
-private-accessing
+private
 profilerResultIncludesRoot: aMorph
 
 	| profilerResultMorphWrapper | 
@@ -7,4 +7,4 @@ profilerResultIncludesRoot: aMorph
 	^ (profilerResultMorphWrapper findByCriteria: 
 		[:morph | (morph isKindOf: IndentingListItemMorph)
 			and: [morph getLabel includesSubstring: '100.0%'] 
-			and: [morph getLabel includesSubstring: 'TimeProfileBrowserTests >> block']]) morphs notEmpty
+			and: [morph getLabel includesSubstring: 'TimeProfileBrowserUITests >> block']]) morphs notEmpty

@@ -1,5 +1,5 @@
-private-accessing
-getResultTimeFrom: anIndentingListItemMorph
+private
+parseResultTimeFrom: anIndentingListItemMorph
 
 	^ (anIndentingListItemMorph contents 
 		copyFrom: 'Time: ' size + 1 
