@@ -64,14 +64,14 @@ extrasMenuOn: aDockingBar
 					item
 						contents: 'Profile Last Block Again' translated;
 						help: 
-							(os = 'unix' ifTrue: ['(Ctrl + Ü) '] ifFalse: ['(Ctrl + M) ']), 'Starts the profiler spying on the last spyed on block provided by the user' translated;
+							'(Ctrl + Ü) Starts the profiler spying on the last spyed on block provided by the user' translated;
 						target: self;
 						selector: #repeatProfileBlock].
 				menu addItem:[:item|
 					item
 						contents: 'Profile Global' translated;
 						help: 
-							(os = 'unix' ifTrue: ['(Ctrl + Ö) '] ifFalse: ['(Ctrl + L) ']), 'Starts the profiler spying on the global environment' translated;
+							'(Ctrl + Ö) Starts the profiler spying on the global environment' translated;
 						target: self;
 						selector: #profileGlobal].
 				menu addItem:[:item|
