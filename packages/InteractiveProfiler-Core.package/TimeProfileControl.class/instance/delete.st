@@ -1,4 +1,4 @@
 updating
 delete
 
-	self window delete.
+	self changed: #close.

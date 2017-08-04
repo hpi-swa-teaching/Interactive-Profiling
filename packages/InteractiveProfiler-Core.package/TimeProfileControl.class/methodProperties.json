@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"buildButtonWith:" : "jak-ing 8/2/2017 17:25",
+		"buildWindowWith:" : "md 8/4/2017 11:33",
+		"buildWindowWith:specs:" : "md 8/4/2017 11:37",
 		"buildWith:" : "jak-ing 8/2/2017 17:24",
-		"delete" : "DG 7/7/2017 16:48",
-		"initialize" : "md 7/18/2017 12:24",
+		"delete" : "md 8/4/2017 11:30",
+		"initialize" : "md 8/4/2017 11:31",
 		"isStopRequested" : "DG 7/12/2017 11:41",
 		"isStopRequested:" : "jak-ing 8/2/2017 17:21",
-		"requestStop" : "md 7/18/2017 12:24",
-		"window" : "md 7/18/2017 12:25",
-		"window:" : "md 7/18/2017 12:27" } }
+		"requestStop" : "md 7/18/2017 12:24" } }

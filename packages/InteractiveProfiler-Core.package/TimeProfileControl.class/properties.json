@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"window",
 		"isStopRequested" ],
 	"name" : "TimeProfileControl",
 	"pools" : [
 		 ],
-	"super" : "StringHolder",
+	"super" : "Model",
 	"type" : "normal" }
