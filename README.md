@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT17-Project-05.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SWT17-Project-05)
 
 ## An Interactive Time Profiling Tool for Squeak
-![Profiler Results](readme_assets/interactive_profiler_results.png)
+<img src="readme_assets/interactive_profiler_results.png" alt="Profiler Results" width="850"/>
 
 ### Setup
 After installing the tool, make sure to rebuild the main docking bar so that the menu entries for control of the Interactive Profiler appear.
@@ -14,12 +14,12 @@ After installing the tool, make sure to rebuild the main docking bar so that the
 ### Using the tool
 All functionalities of the Interactive Profiler are accessible from the "Extras" menu in the main docking bar as well as via keyboard shortcuts (see the tool tips of the "Extras" menu entries for help).
 
-![Profiler Control](readme_assets/profiler_control.png)
+<img src="readme_assets/profiler_control.png" alt="Profiler Control" width="230"/>
 
 ##### Profile a specific block of code
 Click "Extras", "Profile Block" to enter a block and profile that block.
 
-![Enter Block](readme_assets/enter_block.png)
+<img src="readme_assets/enter_block.png" alt="Enter Block" width="260"/>
 
 ##### Profile the last profiled block again
 Click "Extras", "Profile Last Block Again".
