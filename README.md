@@ -12,7 +12,7 @@ After installing the tool, make sure to rebuild the main docking bar so that the
 - Enable "show main docking bar (M)" again
 
 ### Using the tool
-All functionalities of the Interactive Profiler are accessible from the "Extras" menu in the main docking bar as well as via keyboard shortcuts (see the tool tips of the "Extras" menu entries for help).
+The three different modes of the Interactive Profiler are accessible from the "Extras" menu in the main docking bar as well as via keyboard shortcuts (see the tool tips of the menu entries inside "Extras" for help).
 
 <img src="readme_assets/profiler_control.png" alt="Profiler Control" width="230"/>
 
