@@ -1,5 +1,5 @@
 # SWT17-Project-05
-[![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT17-Project-05.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SWT17-Project-05)
+[![Build Status](https://travis-ci.org/hpi-swa-teaching/SWT17-Project-05.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/SWT17-Project-05)
 
 ## An Interactive Time Profiling Tool for Squeak
 <img src="readme_assets/interactive_profiler_results.png" alt="Profiler Results" width="850"/>
